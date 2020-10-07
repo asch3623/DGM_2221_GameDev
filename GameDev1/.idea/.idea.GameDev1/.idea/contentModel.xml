@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Annika\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Annika\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GameDev1.-1856465313.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Annika\Documents\gitRepo\2670_Fall2020_Annika\GameDev1" t="IncludeRecursive">
+    <e p="C:\Users\Annika\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GameDev1.-28740045.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Annika\Documents\gitRepo\DGM_2221_GameDev\GameDev1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BoolData.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />
+          <e p="JumpAction.cs" t="Include" />
         </e>
       </e>
       <e p="GameDev1.sln" t="IncludeFlat" />
