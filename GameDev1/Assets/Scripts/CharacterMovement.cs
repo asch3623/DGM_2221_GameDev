@@ -17,21 +17,24 @@ public class CharacterMovement : MonoBehaviour
     trail = GetComponent<TrailRenderer>();
    trail.emitting = false;
     coolDown.value = false;
+    
+    
   }
 
   private void Update()
   
   {
-    rb.transform.rotation = Quaternion.Euler(0,0,0);
-    
-    float moveH = Input.GetAxis("Horizontal");
-    float moveV = Input.GetAxis("Vertical");
+   float moveH = Input.GetAxis("Horizontal");
+       float moveV = Input.GetAxis("Vertical");
     Vector3 movement = new Vector3(moveH, 0f, moveV)* Time.deltaTime * moveSpeed;
+   
     rb.MovePosition(transform.position + movement);
-    
-    
-    
-    
+    if (rb.velocity != Vector3.zero)
+    { 
+      rb.transform.rotation = Quaternion.LookRotation(movement);
+    }
+   
+
     if (Input.GetKeyDown(KeyCode.LeftShift) && !isDarting.value && !coolDown.value)
            {
              isDarting.value = true;

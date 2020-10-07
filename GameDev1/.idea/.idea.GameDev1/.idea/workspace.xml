@@ -20,9 +20,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +80,7 @@
       <workItem from="1601693340737" duration="10624000" />
       <workItem from="1601749419049" duration="1735000" />
       <workItem from="1602040417726" duration="3482000" />
+      <workItem from="1602103781938" duration="4918000" />
     </task>
     <servers />
   </component>
