@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="BoolData.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="ColorTrigger.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />
           <e p="JumpAction.cs" t="Include" />
         </e>

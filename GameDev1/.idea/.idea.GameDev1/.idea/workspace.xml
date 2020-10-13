@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +83,7 @@
       <workItem from="1601749419049" duration="1735000" />
       <workItem from="1602040417726" duration="3482000" />
       <workItem from="1602103781938" duration="4918000" />
+      <workItem from="1602536475588" duration="1534000" />
     </task>
     <servers />
   </component>
