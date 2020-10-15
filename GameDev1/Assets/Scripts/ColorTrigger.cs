@@ -23,6 +23,6 @@ private Shader shad;
     private void OnTriggerExit(Collider other)
     {
         mat.material.color = Color.white;
-        mat.m
+    
     }
 }
