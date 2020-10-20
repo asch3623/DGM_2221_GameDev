@@ -11,7 +11,13 @@
           <e p="CharacterMovement.cs" t="Include" />
           <e p="ColorTrigger.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="HealthImageBehavior.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="JumpAction.cs" t="Include" />
+          <e p="LivesScript.cs" t="Include" />
+          <e p="TextBehavior.cs" t="Include" />
+          <e p="TriggerEvents.cs" t="Include" />
         </e>
       </e>
       <e p="GameDev1.sln" t="IncludeFlat" />
