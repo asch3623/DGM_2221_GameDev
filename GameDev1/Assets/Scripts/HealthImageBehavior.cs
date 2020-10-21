@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using Image = UnityEngine.UI.Image;
 [RequireComponent(typeof(Image))]
 public class HealthImageBehavior : MonoBehaviour
@@ -7,7 +6,6 @@ public class HealthImageBehavior : MonoBehaviour
     public FloatData health;
     private Image healthUi;
     private Color imageColor;
-    private WaitForFixedUpdate wffu;
     private Color green, yellow, red;
     void Start()
     {
