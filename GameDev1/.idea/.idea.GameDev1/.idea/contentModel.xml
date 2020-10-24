@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BoolData.cs" t="Include" />
+          <e p="BulletBehavior.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="ColorTrigger.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />
@@ -16,6 +17,7 @@
           <e p="IntData.cs" t="Include" />
           <e p="JumpAction.cs" t="Include" />
           <e p="LivesScript.cs" t="Include" />
+          <e p="PlayerShooting.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
