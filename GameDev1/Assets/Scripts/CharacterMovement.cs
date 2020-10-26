@@ -10,11 +10,12 @@ public class CharacterMovement : MonoBehaviour
   private int seconds = 1, coolDownSeconds = 7;
   public BoolData coolDown, isDarting;
   private TrailRenderer trail;
-  private int jumpCount;
+  public int jumpCount;
   private int jumpCountMax = 2;
-  public float jumpForce = 3f;
+  public float jumpForce = 300f;
   private bool isGrounded = true;
   private Vector3 jumpMove;
+  private float gravity = -3f;
 
   private void Start()
   {
@@ -29,19 +30,20 @@ public class CharacterMovement : MonoBehaviour
   private void FixedUpdate()
   
   {
-   float moveH = Input.GetAxis("Horizontal");
-   float moveV = Input.GetAxis("Vertical");
-    var movement = new Vector3(moveH, 0f, moveV)* Time.fixedDeltaTime * moveSpeed;
    
-    transform.Translate (movement * moveSpeed * Time.fixedDeltaTime, Space.World);
-    
-    if (rb.velocity != Vector3.zero)
-    { 
-      transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.3F);
-    }
+      float h = Input.GetAxisRaw("Horizontal");
+      float v = Input.GetAxisRaw("Vertical");
+
+      Vector3 tempVect = new Vector3(h, 0, v);
+      tempVect = tempVect.normalized * moveSpeed * Time.fixedDeltaTime;
+      rb.MovePosition(transform.position + tempVect);
+
+      Vector3 lookDirection = (tempVect + gameObject.transform.position);
+    gameObject.transform.LookAt(lookDirection);
+
    
 
-    if (Input.GetKeyDown(KeyCode.LeftShift) && !isDarting.value && !coolDown.value)
+    if (Input.GetKey(KeyCode.LeftShift) && !isDarting.value && !coolDown.value)
     {
              isDarting.value = true;
              trail.emitting = true;
@@ -49,9 +51,12 @@ public class CharacterMovement : MonoBehaviour
              StartCoroutine(Dart());
     }
 
-    if (!Input.GetKeyDown(KeyCode.Space) || jumpCount >= jumpCountMax) return;
-    rb.AddForce(jumpMove * jumpForce, ForceMode.Impulse);
-    jumpCount++;
+    if (Input.GetKeyDown(KeyCode.Space) && jumpCount < jumpCountMax)
+    {
+      rb.AddForce(new Vector3(0, jumpForce, 0));
+          jumpCount++;
+    }
+   
   }
 
   private void OnCollisionEnter(Collision other)

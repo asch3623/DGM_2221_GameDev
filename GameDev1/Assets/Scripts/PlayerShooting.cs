@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class PlayerShooting : MonoBehaviour
 {
 
-    public int ammoCount =10;
-    public int maxAmmo = 10;
+    public IntData ammoCount;
+    public IntData maxAmmo;
     public GameObject prefab;
     public Transform instancer;
     public float reloadTime;
@@ -20,12 +20,12 @@ public class PlayerShooting : MonoBehaviour
     {
         
         coolDownImage.fillAmount = 0;
-        ammoCount = maxAmmo;
+        ammoCount.value = maxAmmo.value;
     }
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && ammoCount > 0 && canShoot)
+        if (Input.GetButtonDown("Fire1") && ammoCount.value > 0 && canShoot)
         {
             fire();
         }
@@ -39,10 +39,10 @@ public class PlayerShooting : MonoBehaviour
     private void fire()
     {
         
-        Instantiate(prefab, instancer.position, instancer.rotation);
-        ammoCount--;
+        Instantiate(prefab, instancer.position , instancer.rotation);
+        ammoCount.value--;
         
-        if (ammoCount == 0)
+        if (ammoCount.value == 0)
         {
             StartCoroutine(reload());
 
@@ -60,7 +60,7 @@ public class PlayerShooting : MonoBehaviour
             coolDownImage.fillAmount = countDown / reloadTime;
         }
       
-        ammoCount = maxAmmo;
+        ammoCount.value = maxAmmo.value;
         canShoot = true;
     }
 }

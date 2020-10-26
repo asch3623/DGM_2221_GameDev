@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,11 +41,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior'.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +109,7 @@
       <workItem from="1603140019323" duration="6650000" />
       <workItem from="1603312120643" duration="3680000" />
       <workItem from="1603495549112" duration="2088000" />
+      <workItem from="1603673369194" duration="4465000" />
     </task>
     <servers />
   </component>
