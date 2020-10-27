@@ -11,23 +11,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/DataTypes/Vector3Data.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/ImageBehavior.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,6 +56,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StringData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +130,7 @@
       <workItem from="1603312120643" duration="3680000" />
       <workItem from="1603495549112" duration="2088000" />
       <workItem from="1603673369194" duration="4993000" />
+      <workItem from="1603823388574" duration="14056000" />
     </task>
     <servers />
   </component>

@@ -8,10 +8,22 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AmmoText.cs" t="Include" />
+          <e p="AnotherDialogueSystem" t="Include">
+            <e p="Conversation.cs" t="Include" />
+            <e p="DialogueLine.cs" t="Include" />
+            <e p="DialogueSystem.cs" t="Include" />
+            <e p="Speaker.cs" t="Include" />
+            <e p="Tester.cs" t="Include" />
+          </e>
           <e p="BoolData.cs" t="Include" />
           <e p="BulletBehavior.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="ColorTrigger.cs" t="Include" />
+          <e p="DialogueScripts" t="Include">
+            <e p="Dialogue.cs" t="Include" />
+            <e p="DialogueManager.cs" t="Include" />
+            <e p="DialogueTrigger.cs" t="Include" />
+          </e>
           <e p="FillImageBehavior.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthImageBehavior.cs" t="Include" />
@@ -19,6 +31,7 @@
           <e p="JumpAction.cs" t="Include" />
           <e p="LivesScript.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
+          <e p="StringData.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
