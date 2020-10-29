@@ -10,6 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
-  m_Name: New Conversation
+  m_Name: Convo01
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: 'YO HO HO it''s Bob in the house coming to you with some SICK BEATS
+      AAAAAAAAAAAAAAAAAAAAAA
+
+'
+  - speaker: {fileID: 11400000, guid: d97c4dc6538c0a344a0814988cfd3024, type: 2}
+    dialogue: Bob you filthy horrid man, play those beats for my undeserving ears.
+      Let me bathe in your sweet, sweet sounds
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: YAHOOOWOWWWWWWWWWW! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

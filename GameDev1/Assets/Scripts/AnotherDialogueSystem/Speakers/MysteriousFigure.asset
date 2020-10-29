@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb60896fbc2ad0344833b16ba6833fe7, type: 3}
-  m_Name: Bob
+  m_Name: MysteriousFigure
   m_EditorClassIdentifier: 
-  speakerName: 
-  speakerSprite: {fileID: 0}
+  speakerName: ???
+  speakerSprite: {fileID: 21300000, guid: 8e7477da1eb6bc1449da5aa530482603, type: 3}
