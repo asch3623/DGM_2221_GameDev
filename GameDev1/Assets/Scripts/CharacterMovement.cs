@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using JetBrains.Annotations;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -16,6 +17,7 @@ public class CharacterMovement : MonoBehaviour
   private bool isGrounded = true;
   private Vector3 jumpMove;
   private float gravity = -3f;
+  private float zero  = 0f; 
 
   private void Start()
   {
@@ -40,6 +42,7 @@ public class CharacterMovement : MonoBehaviour
 
       Vector3 lookDirection = (tempVect + gameObject.transform.position);
     gameObject.transform.LookAt(lookDirection);
+    
 
    
 
