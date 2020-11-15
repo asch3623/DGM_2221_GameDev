@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb60896fbc2ad0344833b16ba6833fe7, type: 3}
   m_Name: Sally
   m_EditorClassIdentifier: 
-  speakerName: Sally
+  speakerName: You
   speakerSprite: {fileID: 21300000, guid: 6032f1bcb72e11642a91b2b4ba5d3e4b, type: 3}

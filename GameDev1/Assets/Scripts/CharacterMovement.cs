@@ -16,6 +16,7 @@ public class CharacterMovement : MonoBehaviour
   public float jumpForce = 300f;
   private bool isGrounded = true;
   private Vector3 jumpMove;
+  private Vector3 targetRot;
   private float gravity = -3f;
   private float zero  = 0f; 
 
@@ -26,22 +27,26 @@ public class CharacterMovement : MonoBehaviour
    trail.emitting = false;
     coolDown.value = false;
     jumpMove = new Vector3(0f, 2f, 0f);
+   targetRot = new Vector3(0,0,0);
     
   }
 
   private void FixedUpdate()
   
   {
-   
-      float h = Input.GetAxisRaw("Horizontal");
+      float rot = Input.GetAxisRaw("Horizontal");
       float v = Input.GetAxisRaw("Vertical");
 
-      Vector3 tempVect = new Vector3(h, 0, v);
+      Vector3 tempVect = new Vector3(rot, 0, v);
       tempVect = tempVect.normalized * moveSpeed * Time.fixedDeltaTime;
       rb.MovePosition(transform.position + tempVect);
 
-      Vector3 lookDirection = (tempVect + gameObject.transform.position);
-    gameObject.transform.LookAt(lookDirection);
+      rot *= Time.fixedDeltaTime;
+      transform.Rotate(0, rot*100f, 0);
+
+      //Vector3 lookDirection = (tempVect + gameObject.transform.position);
+    //gameObject.transform.LookAt(lookDirection);
+    
     
 
    

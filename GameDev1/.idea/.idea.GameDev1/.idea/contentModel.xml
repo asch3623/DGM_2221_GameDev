@@ -18,6 +18,7 @@
           <e p="BoolData.cs" t="Include" />
           <e p="BulletBehavior.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="CharControlMovement.cs" t="Include" />
           <e p="ColorTrigger.cs" t="Include" />
           <e p="DialogueScripts" t="Include">
             <e p="Dialogue.cs" t="Include" />
@@ -30,6 +31,7 @@
           <e p="IntData.cs" t="Include" />
           <e p="JumpAction.cs" t="Include" />
           <e p="LivesScript.cs" t="Include" />
+          <e p="PlayerName.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
