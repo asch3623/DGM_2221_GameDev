@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 //CODE USED FROM WATCHING COMP-3 INTERACTIVE : https://www.youtube.com/watch?v=CUJO3tZ9P88&t=728s
@@ -7,13 +8,20 @@ public class DialogueSystem : MonoBehaviour
 {
   public Text speakerName, dialogue;
   public Image speakerSprite;
-  
+  public GameObject continueButton;
+  public UnityEvent[] nextActions;
+  public Speaker player;
+  public int eventCount;
+
   private int currentIndex;
   private Conversation currentConvo;
   private static DialogueSystem instance;
   private Animator anim;
   private Coroutine typing;
   private int clickCount;
+  private bool complete;
+  
+
   private void Awake()
   {
     if (instance == null)
@@ -27,27 +35,20 @@ public class DialogueSystem : MonoBehaviour
     }
   }
 
-//MY OWN CODE, I wanted to make it so the continue button didn't move on until dialogue was fully shown, so you must click multiple times, once to show all dialogue and next to move on.
-  public void OnClick()
+  private void Update()
   {
-    clickCount++;
-    if (clickCount == 1)
+    if (complete)
     {
-      if (currentIndex > currentConvo.GetLength())
-      {
-        anim.SetBool("isOpen", false);
-        return;
-      }
-      FinishSentence();
-    }
-
-    if (clickCount == 2)
-    {
-      currentIndex++;
-      ReadNext();
-      clickCount = 0;
+      continueButton.SetActive(true);
     }
   }
+
+  public void OnClick()
+  {
+    currentIndex++;
+    ReadNext();
+  }
+
   public static void StartConversation(Conversation convo)
   {
     instance.anim.SetBool("isOpen", true);
@@ -55,15 +56,18 @@ public class DialogueSystem : MonoBehaviour
     instance.currentConvo = convo;
     instance.speakerName.text = "";
     instance.dialogue.text = "";
-    
+
     instance.ReadNext();
   }
-  
+
   public void ReadNext()
   {
+    continueButton.SetActive(false);
     if (currentIndex > currentConvo.GetLength())
     {
       anim.SetBool("isOpen", false);
+      nextActions[eventCount].Invoke();
+      eventCount++;
       return;
     }
 
@@ -71,7 +75,7 @@ public class DialogueSystem : MonoBehaviour
     if (typing == null)
     {
       typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue));
-      
+
     }
     else
     {
@@ -79,32 +83,41 @@ public class DialogueSystem : MonoBehaviour
       typing = null;
       typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue));
     }
-    speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.getSprite();
-  }
 
-  
-  //my own code!! This shops the slow type and just shows all text.
-  public void FinishSentence()
-  {
-    instance.StopCoroutine(typing);
-    typing = null;
-    dialogue.text = currentConvo.GetLineByIndex(currentIndex).dialogue;
+    speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.getSprite();
   }
 
   IEnumerator TypeText(string text)
   {
+    
     dialogue.text = "";
-    bool complete = false;
+    complete = false;
     int index = 0;
     
+// my own code, inputs player name when I use <>
     while (!complete)
     {
-      dialogue.text += text[index];
-      index++;
-      yield return new WaitForSeconds(.02f);
       
+      if (text[index] == '<')
+      {
+        while (text[index] != '>')
+        {
+          dialogue.text += player.speakerName;
+          index++;
+        }
 
-      if (index == text.Length - 1)
+        if (text[index] == '>')
+        {
+          index++;
+        }
+      }
+
+      dialogue.text += text[index];
+        index++;
+        yield return new WaitForSeconds(.02f);
+
+
+        if (index == text.Length)
       {
         complete = true;
       }

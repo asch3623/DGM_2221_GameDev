@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/STARTGAME.unity
+    guid: 7a9b55cf997e16e468995ca806895757
+  - enabled: 1
+    path: Assets/Scenes/theDomescene.unity
+    guid: 57578307164751048947a434dabb7333
+  - enabled: 1
+    path: Assets/Scenes/desertscene.unity
+    guid: c13f4f75b57f9a14cb7cad44a423cd6e
+  - enabled: 1
+    path: Assets/Scenes/thecity.unity
+    guid: 9522c1cea221e6946b5cc7c2a05da8c2
+  - enabled: 1
+    path: Assets/Scenes/safezone.unity
+    guid: 79a179ee0b796494ebc37d9fe4e70591
+  - enabled: 1
+    path: Assets/Scenes/bossbattle.unity
+    guid: ee8821181a581134fa425631b79a3857
   m_configObjects: {}

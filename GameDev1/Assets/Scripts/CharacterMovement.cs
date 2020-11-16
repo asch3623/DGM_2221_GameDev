@@ -55,7 +55,7 @@ public class CharacterMovement : MonoBehaviour
     {
              isDarting.value = true;
              trail.emitting = true;
-             moveSpeed = 50f;
+             moveSpeed = 10f;
              StartCoroutine(Dart());
     }
 
@@ -76,7 +76,7 @@ public class CharacterMovement : MonoBehaviour
   private IEnumerator Dart()
   {
     yield return new WaitForSeconds(seconds);
-    moveSpeed = 10f;
+    moveSpeed = 3f;
     isDarting.value = false;
     trail.emitting = false;
     coolDown.value = true;

@@ -31,7 +31,8 @@
           <e p="IntData.cs" t="Include" />
           <e p="JumpAction.cs" t="Include" />
           <e p="LivesScript.cs" t="Include" />
-          <e p="PlayerName.cs" t="Include" />
+          <e p="LoadScene.cs" t="Include" />
+          <e p="nameInput.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />

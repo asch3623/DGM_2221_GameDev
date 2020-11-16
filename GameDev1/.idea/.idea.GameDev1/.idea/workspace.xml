@@ -23,11 +23,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/ImageBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/SpriteMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/nameInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/CubeMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,15 +66,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerName.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControllerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/nameInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
       </list>
     </option>
@@ -142,6 +147,7 @@
       <workItem from="1605127285396" duration="3139000" />
       <workItem from="1605132718496" duration="923000" />
       <workItem from="1605387234935" duration="3590000" />
+      <workItem from="1605460627395" duration="25097000" />
     </task>
     <servers />
   </component>
