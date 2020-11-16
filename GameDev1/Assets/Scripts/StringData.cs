@@ -3,4 +3,5 @@
 public class StringData : ScriptableObject
 {
    public string text;
+   
 }

@@ -1291,6 +1291,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &108965154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1908,6 +1911,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &176130111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2126,6 +2132,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &177209102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4691,6 +4700,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &387475502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5101,6 +5113,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &420925334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5515,6 +5530,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &501493173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6602,6 +6620,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &589963012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7968,6 +7989,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &691860755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8281,6 +8305,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &701877216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10882,6 +10909,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &885984500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11005,6 +11035,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &889379697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11128,6 +11161,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &899547336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11346,6 +11382,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &912053702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12928,6 +12967,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1014166853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13146,6 +13188,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1037456023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13975,6 +14020,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1075928713
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15477,6 +15525,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1261093397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16283,6 +16334,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1321299531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17281,6 +17335,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1384558761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17687,6 +17744,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1413895053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18098,6 +18158,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1449622707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18605,6 +18668,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1482680954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19122,6 +19188,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1531846409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19245,6 +19314,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1538074111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20838,6 +20910,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1746703950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20961,6 +21036,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1749222012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21179,6 +21257,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1761422200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21492,6 +21573,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1814147053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22838,6 +22922,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1930462303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23151,6 +23238,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1941074986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24272,6 +24362,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2030493964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24587,6 +24680,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2052434210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24805,6 +24901,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2055465732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25213,6 +25312,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2083680220
 BoxCollider:
   m_ObjectHideFlags: 0
