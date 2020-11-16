@@ -43,9 +43,7 @@ public class CharacterMovement : MonoBehaviour
 
       rot *= Time.fixedDeltaTime;
       transform.Rotate(0, rot*100f, 0);
-
-      //Vector3 lookDirection = (tempVect + gameObject.transform.position);
-    //gameObject.transform.LookAt(lookDirection);
+      
     
     
 

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 public class nameInput : MonoBehaviour
 {
 
-    public string name;
+    public new string name;
     public InputField inputName;
 
     public Speaker player;

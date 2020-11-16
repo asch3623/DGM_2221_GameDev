@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MissionInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -26,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/SpriteMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/nameInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,15 +76,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControllerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/nameInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MissionInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/nameInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +157,8 @@
       <workItem from="1605127285396" duration="3139000" />
       <workItem from="1605132718496" duration="923000" />
       <workItem from="1605387234935" duration="3590000" />
-      <workItem from="1605460627395" duration="30362000" />
+      <workItem from="1605460627395" duration="40016000" />
+      <workItem from="1605508696623" duration="209000" />
     </task>
     <servers />
   </component>

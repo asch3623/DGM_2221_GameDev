@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AlpacaBehavior.cs" t="Include" />
+          <e p="AlwaysLookAt.cs" t="Include" />
           <e p="AmmoText.cs" t="Include" />
           <e p="AnotherDialogueSystem" t="Include">
             <e p="Conversation.cs" t="Include" />
@@ -21,6 +22,7 @@
           <e p="CharacterMovement.cs" t="Include" />
           <e p="CharControlMovement.cs" t="Include" />
           <e p="ColorTrigger.cs" t="Include" />
+          <e p="CountChecker.cs" t="Include" />
           <e p="DialogueScripts" t="Include">
             <e p="Dialogue.cs" t="Include" />
             <e p="DialogueManager.cs" t="Include" />
@@ -37,6 +39,7 @@
           <e p="nameInput.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
+          <e p="TeleportObj.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>

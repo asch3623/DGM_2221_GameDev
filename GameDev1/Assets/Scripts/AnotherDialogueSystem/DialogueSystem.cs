@@ -66,8 +66,15 @@ public class DialogueSystem : MonoBehaviour
     if (currentIndex > currentConvo.GetLength())
     {
       anim.SetBool("isOpen", false);
-      nextActions[eventCount].Invoke();
-      eventCount++;
+      if (eventCount < nextActions.Length-1 && nextActions[eventCount] != null)
+      {
+        nextActions[eventCount].Invoke();
+        eventCount++;
+      }
+      else
+      {
+        nextActions[eventCount].Invoke();
+      }
       return;
     }
 

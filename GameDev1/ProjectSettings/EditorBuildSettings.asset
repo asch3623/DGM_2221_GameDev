@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bossbattle.unity
     guid: ee8821181a581134fa425631b79a3857
+  - enabled: 1
+    path: Assets/Scenes/theDomeNextDay.unity
+    guid: 9c6a9ed5c434f6a4dbc95459464c05a8
   m_configObjects: {}
