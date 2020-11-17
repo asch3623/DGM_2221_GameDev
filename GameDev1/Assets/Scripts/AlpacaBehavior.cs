@@ -1,15 +1,21 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class AlpacaBehavior : MonoBehaviour
 {
     public UnityEvent[] Event;
     private int i;
-    
+    private bool canPickUp;
+
+    private void Update()
+    {
+        canPickUp = Input.GetKey(KeyCode.E);
+    }
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (canPickUp)
         {
             if (Event.Length > 1 && i < Event.Length - 1)
             {

@@ -85,9 +85,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/nameInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
       </list>
     </option>
   </component>
@@ -159,6 +159,7 @@
       <workItem from="1605387234935" duration="3590000" />
       <workItem from="1605460627395" duration="40016000" />
       <workItem from="1605508696623" duration="209000" />
+      <workItem from="1605557728624" duration="2260000" />
     </task>
     <servers />
   </component>

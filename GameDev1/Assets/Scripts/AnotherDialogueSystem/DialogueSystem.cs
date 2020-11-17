@@ -101,7 +101,7 @@ public class DialogueSystem : MonoBehaviour
     complete = false;
     int index = 0;
     
-// my own code, inputs player name when I use <>
+// my own code, inputs player name when I use <> i'm so proud
     while (!complete)
     {
       
