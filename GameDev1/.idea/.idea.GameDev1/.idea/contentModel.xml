@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="AiPatrolBehavior.cs" t="Include" />
+          </e>
           <e p="AlpacaBehavior.cs" t="Include" />
           <e p="AlwaysLookAt.cs" t="Include" />
           <e p="AmmoText.cs" t="Include" />
@@ -30,6 +33,8 @@
           </e>
           <e p="FillImageBehavior.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthImageBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="JumpAction.cs" t="Include" />
