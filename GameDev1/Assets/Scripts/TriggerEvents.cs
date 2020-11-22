@@ -3,14 +3,32 @@ using UnityEngine.Events;
 
 public class TriggerEvents : MonoBehaviour
 {
-    public UnityEvent onEnter, onExit;
+    public UnityEvent onEnter, onPlayerEnter, onPlayerExit, onProjectileEnter, onExit;
     
     private void OnTriggerEnter(Collider other)
     {
-        onEnter.Invoke();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            onPlayerEnter.Invoke();
+        }
+        else if (other.gameObject.CompareTag("Projectile"))
+        {
+             onProjectileEnter.Invoke(); 
+        }
+        else
+        {
+            onEnter.Invoke();
+        } 
     }
     private void OnTriggerExit(Collider other)
     {
-        onExit.Invoke();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            onPlayerExit.Invoke();
+        }
+        else
+        {
+            onExit.Invoke(); 
+        }
     }
 }

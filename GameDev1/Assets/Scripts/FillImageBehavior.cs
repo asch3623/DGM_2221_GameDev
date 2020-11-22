@@ -17,7 +17,6 @@ public class FillImageBehavior : MonoBehaviour
 
         im = GetComponent<Image>();
         im.fillAmount = fillValue;
-        print(fillValue);
         isDart.value = false;
     }
 

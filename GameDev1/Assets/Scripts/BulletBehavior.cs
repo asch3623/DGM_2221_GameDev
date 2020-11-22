@@ -1,12 +1,14 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 [RequireComponent(typeof(Rigidbody))]
 public class BulletBehavior : MonoBehaviour
 {
     private Rigidbody rBody;
     public float bulletForce;
     public float lifeTime;
+    public UnityEvent enemyHit;
 
     private IEnumerator Start()
     {
@@ -16,5 +18,17 @@ public class BulletBehavior : MonoBehaviour
         yield return new WaitForSeconds(lifeTime);
         Destroy(gameObject);
     }
-    
+
+    private void OnCollisionEnter(Collision other)
+    {
+        
+            print("isHIt");
+            if (other.gameObject.CompareTag("Enemy"))
+            {
+                enemyHit.Invoke();
+                StopAllCoroutines();
+                Destroy(gameObject);
+            }
+        
+    }
 }

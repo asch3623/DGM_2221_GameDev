@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharacterMover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAttachedObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MissionInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -26,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/ImageBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AiPatrolBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,12 +38,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/nameInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/CubeMove.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,16 +60,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior'.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
@@ -77,7 +75,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerName.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControllerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
@@ -86,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MissionInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/nameInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
@@ -95,6 +91,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AiPatrolBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAttachedObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +117,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -169,6 +177,8 @@
       <workItem from="1605557728624" duration="2260000" />
       <workItem from="1605719446636" duration="1407000" />
       <workItem from="1605928800321" duration="4862000" />
+      <workItem from="1605984554892" duration="12441000" />
+      <workItem from="1606020544273" duration="5472000" />
     </task>
     <servers />
   </component>
@@ -195,5 +205,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="263" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1601500510198" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1606026163193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606026163193" />
   </component>
 </project>

@@ -15,11 +15,10 @@ public class LivesScript : MonoBehaviour
 
     private void Update()
     {
-        if (health.value < 0)
+        if (health.value <= 0)
         {
             lifeCount.value--;
             gameObject.transform.position = spawn;
-            health.value = 1f;
         }
 
         if (lifeCount.value == 0)
