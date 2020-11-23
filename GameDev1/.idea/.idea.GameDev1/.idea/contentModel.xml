@@ -6,6 +6,21 @@
     <e p="C:\Users\Annika\Documents\gitRepo\DGM_2221_GameDev\GameDev1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Scriptable Objects" t="Include">
+          <e p="Inventory" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="InventoryObject.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Items" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="DefaultObject.cs" t="Include" />
+              <e p="EquipmentObj.cs" t="Include" />
+              <e p="FoodObject.cs" t="Include" />
+              <e p="ItemObject.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AiPatrolBehavior.cs" t="Include" />
@@ -32,13 +47,20 @@
             <e p="DialogueManager.cs" t="Include" />
             <e p="DialogueTrigger.cs" t="Include" />
           </e>
-          <e p="EnemyData.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="EnemyBehaviour.cs" t="Include" />
+            <e p="EnemyUIBehaviour.cs" t="Include" />
+          </e>
           <e p="FillImageBehavior.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthImageBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="InventoryBehaviours" t="Include">
+            <e p="Item.cs" t="Include" />
+            <e p="PlayerInventoryBehaviour.cs" t="Include" />
+          </e>
           <e p="LivesScript.cs" t="Include" />
           <e p="LoadScene.cs" t="Include" />
           <e p="MissionInfo.cs" t="Include" />

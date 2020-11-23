@@ -15,11 +15,15 @@ public class GameActionHandler : MonoBehaviour
 
     private void ActionHandler()
     {
-        Invoke(nameof(OnActionHandler), holdTime);
+        if (this != null)
+        {
+            Invoke(nameof(OnActionHandler), holdTime);
+        }
+        
     }
 
     private void OnActionHandler()
     {
-        handlerEvent.Invoke();
+        handlerEvent?.Invoke();
     }
 }

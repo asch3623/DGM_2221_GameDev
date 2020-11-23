@@ -25,7 +25,7 @@ public class BulletBehavior : MonoBehaviour
             print("isHIt");
             if (other.gameObject.CompareTag("Enemy"))
             {
-                enemyHit.Invoke();
+                enemyHit?.Invoke();
                 StopAllCoroutines();
                 Destroy(gameObject);
             }

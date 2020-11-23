@@ -11,57 +11,55 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/DataTypes/Vector3Data.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/ImageBehavior.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/SpriteMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/CubeMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharacterMover.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAttachedObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MissionInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/DataTypes/Vector3Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/AI/PatrolandFollow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/ImageBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AiPatrolBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/SpriteMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/nameInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/CubeMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyUIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JumpAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior'.cs" />
@@ -90,18 +88,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AiPatrolBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FillImageBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAttachedObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyUIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/FoodObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/DefaultObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/EquipmentObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/PlayerInventoryBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryBehaviours/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryBehaviours/PlayerInventoryBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -178,7 +187,8 @@
       <workItem from="1605719446636" duration="1407000" />
       <workItem from="1605928800321" duration="4862000" />
       <workItem from="1605984554892" duration="12441000" />
-      <workItem from="1606020544273" duration="5472000" />
+      <workItem from="1606020544273" duration="5801000" />
+      <workItem from="1606065989422" duration="14436000" />
     </task>
     <servers />
   </component>
