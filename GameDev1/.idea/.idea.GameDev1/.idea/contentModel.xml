@@ -58,6 +58,7 @@
           <e p="TransparencyFade.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="Weapons" t="Include">
+            <e p="InstanceWeapon.cs" t="Include" />
             <e p="WeaponBehavior.cs" t="Include" />
           </e>
         </e>

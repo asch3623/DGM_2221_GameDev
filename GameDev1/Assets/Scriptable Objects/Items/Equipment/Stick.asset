@@ -14,10 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Stick
   icon: {fileID: 21300000, guid: c21bbf08f5aa8dc4484038f90789ef02, type: 3}
-  amount: 9
+  amount: 0
   description: What's brown and sticky?
   useEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: cd362fbc8d1f2224f909c4b2b0f843d4, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   defense: 1
   attackDamage: 2

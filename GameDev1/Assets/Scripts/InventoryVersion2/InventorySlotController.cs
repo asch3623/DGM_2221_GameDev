@@ -34,6 +34,7 @@ public class InventorySlotController : MonoBehaviour
 
         if (item)
         {
+            displayImage.color = Color.white;
             displayImage.sprite = item.icon;
             displayText.text = item.name;
             if (item.amount > 1)
