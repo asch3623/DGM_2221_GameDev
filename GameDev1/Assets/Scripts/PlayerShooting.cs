@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,14 +16,13 @@ public class PlayerShooting : MonoBehaviour
 
     private void Start()
     {
-        
         coolDownImage.fillAmount = 0;
         ammoCount.value = maxAmmo.value;
     }
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && ammoCount.value > 0 && canShoot)
+        if (Input.GetButtonDown("Fire1") && ammoCount.value > 0 && canShoot )
         {
             fire();
         }

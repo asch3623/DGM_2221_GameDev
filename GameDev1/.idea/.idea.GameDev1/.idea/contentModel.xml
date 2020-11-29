@@ -57,6 +57,9 @@
           <e p="TextBehavior.cs" t="Include" />
           <e p="TransparencyFade.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
+          <e p="Weapons" t="Include">
+            <e p="WeaponBehavior.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
