@@ -6,8 +6,7 @@ public class InventorySystem : MonoBehaviour
 {
    public List<ItemObj> list = new List<ItemObj>();
    public static InventorySystem instance;
-   public GameObject inventoryPanel;
-   public Animator anim;
+   public GameObject slots;
 
    private void Start()
    {
@@ -19,7 +18,7 @@ public class InventorySystem : MonoBehaviour
    public void updatePanelSlots()
    {
       int i = 0;
-      foreach (Transform child in inventoryPanel.transform)
+      foreach (Transform child in slots.transform)
       {
          InventorySlotController slot = child.GetComponent<InventorySlotController>();
 

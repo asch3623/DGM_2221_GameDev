@@ -16,12 +16,12 @@ public class InventorySlotController : MonoBehaviour
         {
             item.Use();
             item.amount--;
-            updateInfo();
+            
             if (item.amount == 0)
             {
                 InventorySystem.instance.Remove(item);
             }
-            
+            updateInfo();
         }
     }
 

@@ -11,7 +11,7 @@ public class ItemPickUp : MonoBehaviour
         {
             
             InventorySystem.instance.Add(item);
-            Destroy(this);
+            Destroy(gameObject);
             
         }
     }

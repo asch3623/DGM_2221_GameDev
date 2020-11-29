@@ -111,10 +111,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Consumable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/ItemObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Equipment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/ItemPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySystem.cs" />
       </list>
     </option>
   </component>
@@ -194,7 +194,8 @@
       <workItem from="1606020544273" duration="5801000" />
       <workItem from="1606065989422" duration="14436000" />
       <workItem from="1606596474039" duration="436000" />
-      <workItem from="1606597835677" duration="17349000" />
+      <workItem from="1606597835677" duration="17907000" />
+      <workItem from="1606619208116" duration="565000" />
     </task>
     <servers />
   </component>
