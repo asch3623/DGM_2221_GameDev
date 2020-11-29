@@ -17,11 +17,11 @@ public class CharControlMovement : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;
     private int jumps;
+    
 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        
     }
 
     private void Update()

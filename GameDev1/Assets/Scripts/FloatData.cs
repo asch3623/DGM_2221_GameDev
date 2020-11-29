@@ -40,5 +40,5 @@ public class FloatData : ScriptableObject
             value = maxValue;
         }
     }
-    
+
 }
