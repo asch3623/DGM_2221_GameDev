@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
 
 public class CharControlMovement : MonoBehaviour
 {
-    public float speed = 6f;
+    public float speed = 4f;
     public float rotateSpeed = 1.5f;
     public float jumpSpeed = 8f;
     public float gravity = 20f;
@@ -23,7 +19,7 @@ public class CharControlMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
     }
-
+// old
     private void Update()
     {
         if (controller.isGrounded)
@@ -43,11 +39,35 @@ public class CharControlMovement : MonoBehaviour
             moveDirection.x *= speed;
             moveDirection.z *= speed;
         }
-
+    
         transform.Rotate(0, Input.GetAxis("Horizontal")*rotateSpeed,0);
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
-
+    
     }
+    // made from using, https://www.mvcode.com/lessons/unity-rpg-character-controller-jamie, Unity RPG Tutorial from MVCode
+    // private void Update()
+    // {
+    //     Movement();
+    // }
+    //
+    // void Movement()
+    // {
+    //     float x = Input.GetAxisRaw("Horizontal");
+    //     float z = Input.GetAxisRaw("Vertical");
+    //     
+    //     Vector3 direction = new Vector3(x,0,z).normalized;
+    //     Vector3 velocity = direction * speed * Time.deltaTime;
+    //     controller.Move(velocity);
+    //
+    //     if (velocity.magnitude > 0)
+    //     {
+    //        float yAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+    //        Vector3 targetRotationDirection = new Vector3(0, yAngle, 0);
+    //        transform.localEulerAngles = Vector3.Slerp(transform.localEulerAngles, targetRotationDirection, Time.deltaTime * rotateSpeed);
+    //                //transform.localEulerAngles = new Vector3(0, yAngle, 0); 
+    //     }
+    //     
+    // }
 }
 

@@ -4,16 +4,18 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Text))]
 public class TextBehavior : MonoBehaviour
 {
-  public IntData lifeCount;
+  public IntData data;
   private Text t;
+  public string message;
 
   private void Start()
   {
     t = GetComponent<Text>();
+    t.text = message + data.value;
   }
 
-  private void Update()
+  public void UpdateText()
   {
-    t.text = "Lives: " + lifeCount.value;
+    t.text = message + data.value;
   }
 }

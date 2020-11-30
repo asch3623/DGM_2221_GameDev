@@ -36,8 +36,10 @@
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthImageBehavior.cs" t="Include" />
+          <e p="ImageColorBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="InventoryVersion2" t="Include">
+            <e p="CoinPickUp.cs" t="Include" />
             <e p="Consumable.cs" t="Include" />
             <e p="Equipment.cs" t="Include" />
             <e p="InventoryAnimationController.cs" t="Include" />

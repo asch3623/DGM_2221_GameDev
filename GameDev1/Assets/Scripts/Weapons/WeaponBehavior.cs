@@ -1,57 +1,80 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 
 [RequireComponent(typeof(Animator))]
 public class WeaponBehavior : MonoBehaviour
 {
-   public UnityEvent AttackEnemy;
+   public UnityEvent imageChangeZ, imageChangeX, imageOldZ, imageOldX;
    public Equipment weapon;
-   
-   
+   public IntData attackDamage;
+
+   public int seconds = 3;
    private Animator anim;
-   private int attackDamage;
    private int defense;
-   private float seconds = 0.5f;
-   private bool isAttacking, inRange;
+   private bool isCoolDown;
    
+
 
 
    private void Start()
    {
       anim = GetComponent<Animator>();
-      attackDamage = weapon.attackDamage;
+      attackDamage.value = weapon.attackDamage;
       defense = weapon.defense;
-      isAttacking = false;
-      inRange = false;
+      
+      
+      
    }
    
 
    private void Update()
    {
-      if (Input.GetButtonDown("Fire1") && isAttacking == false)
+      if (Input.GetKeyDown(KeyCode.Z))
       {
-         //if player is in range, decrease enemy health.
-         if (inRange)
-         {
-            Debug.Log("is Attacking Enemy");
-            AttackEnemy.Invoke();
-         }
-         
-         
-         StartCoroutine(Attack());
+         anim.SetTrigger("Base_Attack");
+         imageChangeZ.Invoke(); 
+      }
+      if (Input.GetKeyDown(KeyCode.X) && isCoolDown == false)
+      {
+         imageChangeX.Invoke(); 
+         var weaponPowerUP = weapon.attackDamage *2;
+         attackDamage.value = weaponPowerUP;
+         anim.SetTrigger("Secondary_Attack");
+         StartCoroutine(coolDown());
+      }
+
+      if (anim.GetCurrentAnimatorStateInfo(0).IsName("StickIdle"))
+      {
+         imageOldZ.Invoke();  
+         attackDamage.value = weapon.attackDamage;
       }
    }
+   
 
-   private IEnumerator Attack()
+   private IEnumerator coolDown()
    {
-      isAttacking = true;
-      anim.SetBool("isAttacking", true);
+      isCoolDown = true;
       yield return new WaitForSeconds(seconds);
-      anim.SetBool("isAttacking", false);
-      isAttacking = false;
+      imageOldX.Invoke();
+      isCoolDown = false;
+   }
 
+   private void OnTriggerEnter(Collider other)
+   {
+      if (other.tag == "Enemy")
+      {
+         if (other.GetComponent<EnemyBehaviour>() == null)
+         {
+            other.transform.parent.GetComponent<EnemyBehaviour>().PlayerAttackEnemy();
+         }
+         else
+         {
+            other.GetComponent<EnemyBehaviour>().PlayerAttackEnemy();
+         }
+      }
+      
    }
 }

@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 
@@ -11,8 +10,19 @@ public class EnemyBehaviour : MonoBehaviour
 {
     public IntData playerAttackDamage;
     public float enemyHealth, enemyHealthMax;
-    public UnityEvent lessThanZeroEvent, onPlayerAttackEvent, imgFillEvent;
-    public bool isHit;
+    public UnityEvent onPlayerAttackEvent;
+
+    public List<GameObject> lootItems;
+    public int[] table =
+    {
+        60,
+        30,
+        10
+    };
+
+    private int total;
+    
+    
     private int seconds = 1;
     private TransparencyFade fade;
     private Vector3 pos;
@@ -21,10 +31,9 @@ public class EnemyBehaviour : MonoBehaviour
     {
         pos = new Vector3(Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
         fade = GetComponent<TransparencyFade>();
-        isHit = false;
     }
 
-    public void Initialize()
+    public void InstantiateObj()
     {
         Instantiate(gameObject, pos, gameObject.transform.rotation);
     }
@@ -34,7 +43,6 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Projectile"))
         {
-            isHit = true;
             StartCoroutine(Wait());
         }
     }
@@ -42,7 +50,6 @@ public class EnemyBehaviour : MonoBehaviour
     private IEnumerator Wait()
     {
         yield return new WaitForSeconds(seconds);
-        isHit = false;
     }
 
 
@@ -50,6 +57,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (fade.complete)
         {
+            RandomItemDrop();
             Destroy(gameObject);
         }
     }
@@ -57,36 +65,45 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void PlayerAttackEnemy()
     {
-        if (isHit)
+        if (enemyHealth > 0)
         {
-              enemyHealth += playerAttackDamage.value;
-              onPlayerAttackEvent.Invoke();
+             enemyHealth += playerAttackDamage.value;
+             onPlayerAttackEvent.Invoke();
         }
-      
+
+        if (enemyHealth <= 0)
+        {
+            onPlayerAttackEvent.Invoke();
+        }
+        
+       
+
     }
     
     public void SetValueToTheMaxValue()
     {
         enemyHealth = enemyHealthMax;
     }
-    
-    public void SetImageFillAmount(Image img)
+
+    public void RandomItemDrop()
     {
+        foreach (var item in table)
+        {
+          total += item;  
+        }
         
-        if (enemyHealth > 0 || enemyHealth <= enemyHealthMax)
+        int randomNumber = Random.Range(0, total);
+        for (int i = 0; i < table.Length; i++)
         {
-            img.fillAmount = enemyHealth / enemyHealthMax;
-            imgFillEvent.Invoke();
-        }
-
-        if (enemyHealth <= 0)
-        {
-            lessThanZeroEvent.Invoke();
-        }
-
-        if (enemyHealth >= enemyHealthMax)
-        {
-            enemyHealth = enemyHealthMax;
+            if (randomNumber <= table[i])
+            {
+                Instantiate(lootItems[i], gameObject.transform.position, Quaternion.identity);
+                return;
+            }
+            else
+            {
+                randomNumber -= table[i];
+            }
         }
     }
 }

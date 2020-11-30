@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1027582811868620330}
   - component: {fileID: 1424717563283594742}
   - component: {fileID: 5996247946462480198}
-  - component: {fileID: 2229990399639327261}
   - component: {fileID: 623427054}
   - component: {fileID: 1395276423}
   m_Layer: 0
@@ -78,35 +77,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2229990399639327261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 359511213912206086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a55d9b7d363254dadd071037d56c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameAction: {fileID: 11400000, guid: 50c7dc370f836bc40852b487cf85c6b2, type: 2}
-  handlerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2269950334198747778}
-        m_TargetAssemblyTypeName: EnemyBehaviour, Assembly-CSharp
-        m_MethodName: SetImageFillAmount
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 5996247946462480198}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  holdTime: 0
 --- !u!114 &623427054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +148,21 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
+  lessThanZeroEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1124691247}
+        m_TargetAssemblyTypeName: TransparencyFade, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &730162153810680547
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +176,7 @@ GameObject:
   - component: {fileID: 730162153810680545}
   m_Layer: 0
   m_Name: PlayerTrigger
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,7 +259,6 @@ GameObject:
   - component: {fileID: 730162154285122626}
   - component: {fileID: 730162154285122629}
   - component: {fileID: 730162154285122628}
-  - component: {fileID: 3394023564148897656}
   - component: {fileID: 1184374486}
   - component: {fileID: 7606795141726093842}
   - component: {fileID: 1124691247}
@@ -365,35 +349,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3394023564148897656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730162154285122630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a55d9b7d363254dadd071037d56c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameAction: {fileID: 11400000, guid: 83d6773004b1ebf47837e143fdfd2940, type: 2}
-  handlerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2269950334198747778}
-        m_TargetAssemblyTypeName: EnemyBehaviour, Assembly-CSharp
-        m_MethodName: PlayerAttackEnemy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  holdTime: 0
 --- !u!114 &1184374486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,37 +433,7 @@ MonoBehaviour:
   playerAttackDamage: {fileID: 11400000, guid: f4478deab7da23b4e99ec138969bc1e6, type: 2}
   enemyHealth: 10
   enemyHealthMax: 10
-  lessThanZeroEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: bb35eaec915a7c14081dca938f93e1b7, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   onPlayerAttackEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 50c7dc370f836bc40852b487cf85c6b2, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  imgFillEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1395276423}
@@ -523,7 +448,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  isHit: 0
+  lootItems:
+  - {fileID: 2833340349578180643, guid: 7b2545f1eaf3bc24db4eb60f89d23a13, type: 3}
+  - {fileID: 7349218338714036937, guid: c31ab0bd11ac467459c789fe31aae78b, type: 3}
+  - {fileID: 2415876501785070729, guid: a37d95703bc1d564ea1affb2a47eda2f, type: 3}
+  table: 3c0000001e0000000a000000
 --- !u!114 &6177865578495878399
 MonoBehaviour:
   m_ObjectHideFlags: 0

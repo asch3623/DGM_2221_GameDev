@@ -31,7 +31,7 @@ public class TransparencyFade : MonoBehaviour
     
     public void StartFade()
     {
-        if (FadeObj() != null && enemy.isHit)
+        if (FadeObj() != null)
         {
             StartCoroutine(FadeObj());
         }
