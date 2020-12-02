@@ -6,6 +6,8 @@ public class AlwaysLookAt : MonoBehaviour
     private TextMesh textMeshObject;
     public Transform textLookTargetTransform;
 
+    
+    
     public void FaceTextMeshToCamera(){
         textMeshObject = GetComponent<TextMesh>();
         Vector3 origRot = textMeshObject.transform.eulerAngles;

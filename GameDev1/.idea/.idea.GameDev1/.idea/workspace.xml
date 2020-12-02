@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/nameInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
@@ -117,8 +116,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Equipment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/InstanceWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" />
       </list>
     </option>
   </component>
@@ -201,7 +202,9 @@
       <workItem from="1606597835677" duration="17907000" />
       <workItem from="1606619208116" duration="2455000" />
       <workItem from="1606622848915" duration="6698000" />
-      <workItem from="1606697912939" duration="18176000" />
+      <workItem from="1606697912939" duration="18697000" />
+      <workItem from="1606770519800" duration="3042000" />
+      <workItem from="1606851484682" duration="8416000" />
     </task>
     <servers />
   </component>

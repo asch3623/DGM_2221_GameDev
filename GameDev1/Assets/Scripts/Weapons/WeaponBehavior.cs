@@ -11,11 +11,11 @@ public class WeaponBehavior : MonoBehaviour
    public Equipment weapon;
    public IntData attackDamage;
 
-   public int seconds = 3;
+   
    private Animator anim;
    private int defense;
-   private bool isCoolDown;
-   
+   private bool isCoolDown, animState;
+
 
 
 
@@ -24,9 +24,10 @@ public class WeaponBehavior : MonoBehaviour
       anim = GetComponent<Animator>();
       attackDamage.value = weapon.attackDamage;
       defense = weapon.defense;
-      
-      
-      
+      animState = anim.GetCurrentAnimatorStateInfo(0).IsName("StickIdle");
+
+
+
    }
    
 
@@ -35,26 +36,22 @@ public class WeaponBehavior : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.Z))
       {
          anim.SetTrigger("Base_Attack");
+         attackDamage.value = weapon.attackDamage;
          imageChangeZ.Invoke(); 
+         imageOldZ.Invoke();  
       }
       if (Input.GetKeyDown(KeyCode.X) && isCoolDown == false)
       {
-         imageChangeX.Invoke(); 
+         anim.SetTrigger("Secondary_Attack");
          var weaponPowerUP = weapon.attackDamage *2;
          attackDamage.value = weaponPowerUP;
-         anim.SetTrigger("Secondary_Attack");
-         StartCoroutine(coolDown());
-      }
-
-      if (anim.GetCurrentAnimatorStateInfo(0).IsName("StickIdle"))
-      {
-         imageOldZ.Invoke();  
-         attackDamage.value = weapon.attackDamage;
+         imageChangeX.Invoke(); 
+         StartCoroutine(coolDown(3));
       }
    }
    
 
-   private IEnumerator coolDown()
+   private IEnumerator coolDown(int seconds)
    {
       isCoolDown = true;
       yield return new WaitForSeconds(seconds);
