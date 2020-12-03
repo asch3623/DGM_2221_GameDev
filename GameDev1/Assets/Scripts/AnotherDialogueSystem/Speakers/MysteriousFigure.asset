@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MysteriousFigure
   m_EditorClassIdentifier: 
   speakerName: ???
-  speakerSprite: {fileID: 21300000, guid: 8e7477da1eb6bc1449da5aa530482603, type: 3}
+  speakerSprite: {fileID: 21300000, guid: 3e8454fbbfbb45441991f556e61d4415, type: 3}

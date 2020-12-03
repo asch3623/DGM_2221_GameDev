@@ -9,9 +9,9 @@ public class DialogueSystem : MonoBehaviour
   public Text speakerName, dialogue;
   public Image speakerSprite;
   public GameObject continueButton;
-  public UnityEvent[] nextActions;
   public Speaker player;
-  public int eventCount;
+  public bool convoIsFinished;
+  public UnityEvent onConvoFinish;
 
   private int currentIndex;
   private Conversation currentConvo;
@@ -20,7 +20,7 @@ public class DialogueSystem : MonoBehaviour
   private Coroutine typing;
   private int clickCount;
   private bool complete;
-  
+
 
   private void Awake()
   {
@@ -51,6 +51,7 @@ public class DialogueSystem : MonoBehaviour
 
   public static void StartConversation(Conversation convo)
   {
+    instance.convoIsFinished = false;
     instance.anim.SetBool("isOpen", true);
     instance.currentIndex = 0;
     instance.currentConvo = convo;
@@ -66,15 +67,19 @@ public class DialogueSystem : MonoBehaviour
     if (currentIndex > currentConvo.GetLength())
     {
       anim.SetBool("isOpen", false);
-      if (eventCount < nextActions.Length-1 && nextActions[eventCount] != null)
-      {
-        nextActions[eventCount].Invoke();
-        eventCount++;
-      }
-      else
-      {
-        nextActions[eventCount].Invoke();
-      }
+      convoIsFinished = true;
+      onConvoFinish.Invoke();
+
+      //old event system
+      // if (eventCount < nextActions.Length-1 && nextActions[eventCount] != null)
+      // {
+      //   nextActions[eventCount].Invoke();
+      //   eventCount++;
+      // }
+      // else
+      // {
+      //   nextActions[eventCount].Invoke();
+      // }
       return;
     }
 

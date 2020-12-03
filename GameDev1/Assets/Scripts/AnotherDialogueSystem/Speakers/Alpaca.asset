@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Alpaca
   m_EditorClassIdentifier: 
   speakerName: Alpaca
-  speakerSprite: {fileID: 21300000, guid: 22aad562605abb74dae9ee73aa6cf5d6, type: 3}
+  speakerSprite: {fileID: 21300000, guid: a2c8d1ca8d2f5494389bc1dd64bcffd9, type: 3}
