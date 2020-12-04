@@ -5,13 +5,29 @@ using UnityEngine;
 public class InventorySystem : MonoBehaviour
 {
    public List<ItemObj> list = new List<ItemObj>();
+   public List<ItemObj> allItems;
    public static InventorySystem instance;
    public GameObject slots;
 
    private void Start()
    {
       instance = this;
-      updatePanelSlots();
+      GetItems();
+   }
+
+   public void GetItems()
+   {
+      int a = 0;
+      foreach (ItemObj item in allItems)
+      {
+         var value = item.amount;
+         if (value > 0)
+         {
+            list.Add(item);
+            updatePanelSlots();
+         }
+         a++;
+      }
    }
    
 
@@ -35,9 +51,10 @@ public class InventorySystem : MonoBehaviour
       }
    }
 
-   public void Add(ItemObj item)
+   public virtual void Add(ItemObj item)
    {
-      if (item.amount > 0)
+     
+      if (item.amount >= 1)
       {
          Debug.Log("Added an item to the Count");
          item.amount++;

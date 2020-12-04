@@ -3,16 +3,13 @@ using UnityEngine;
 
 public class AlwaysLookAt : MonoBehaviour
 {
-    private TextMesh textMeshObject;
-    public Transform textLookTargetTransform;
+    private Transform textMeshObject;
+    public Transform myCameraTransform;
+    
 
-    
-    
-    public void FaceTextMeshToCamera(){
-        textMeshObject = GetComponent<TextMesh>();
-        Vector3 origRot = textMeshObject.transform.eulerAngles;
-        textMeshObject.transform.LookAt(textLookTargetTransform);
-        origRot.y = textMeshObject.transform.eulerAngles.y;
-        textMeshObject.transform.eulerAngles = origRot;
+    public void FaceTextMeshToCamera()
+    {
+        textMeshObject = gameObject.transform;
+        textMeshObject.forward = myCameraTransform.forward;
     }
 }

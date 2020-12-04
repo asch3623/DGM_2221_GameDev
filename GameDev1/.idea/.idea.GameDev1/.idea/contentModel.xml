@@ -9,9 +9,9 @@
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AiPatrolBehavior.cs" t="Include" />
+            <e p="AIWander.cs" t="Include" />
             <e p="EnemyAI.cs" t="Include" />
           </e>
-          <e p="AlpacaBehavior.cs" t="Include" />
           <e p="AlwaysLookAt.cs" t="Include" />
           <e p="AmmoText.cs" t="Include" />
           <e p="AnotherDialogueSystem" t="Include">
@@ -37,9 +37,12 @@
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthImageBehavior.cs" t="Include" />
+          <e p="HealthText.cs" t="Include" />
           <e p="ImageColorBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="InteractBehavior.cs" t="Include" />
           <e p="InventoryVersion2" t="Include">
+            <e p="AllItems.cs" t="Include" />
             <e p="CoinPickUp.cs" t="Include" />
             <e p="Consumable.cs" t="Include" />
             <e p="Equipment.cs" t="Include" />

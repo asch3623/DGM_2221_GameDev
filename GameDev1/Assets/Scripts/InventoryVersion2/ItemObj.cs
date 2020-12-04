@@ -8,6 +8,7 @@ public class ItemObj : ScriptableObject
   public int amount;
   [TextArea (10,15)]
   public string description;
+  
 
   public virtual void Use()
   {

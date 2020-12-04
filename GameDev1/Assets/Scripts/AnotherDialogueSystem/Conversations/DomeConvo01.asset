@@ -20,8 +20,5 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
     dialogue: What? Of course you do. We've done this every day for a year. You're
       an alpaca herder, remember?
-  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
-    dialogue: What? No. Actually, I don't even know who you are!
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
-    dialogue: Hey, baby steps. It seems like you're going through some kind of amnesia.
-      Let's just check out your alpacas, okay?
+    dialogue: Speaking of which, let's check out your alpacas.

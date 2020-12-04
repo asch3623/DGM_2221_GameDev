@@ -28,7 +28,12 @@ public class EnemyAI : MonoBehaviour
     {
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
-        healthBar = gameObject.transform.Find("Canvas").transform;
+        if (healthBar)
+        {
+             healthBar = gameObject.transform.Find("Canvas").transform;
+        }
+       
+       
 
     }
 
@@ -45,7 +50,8 @@ public class EnemyAI : MonoBehaviour
     {
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-        healthBar.forward = myCameraTransform.forward;
+        if (healthBar) healthBar.forward = myCameraTransform.forward;
+        
 
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
@@ -63,6 +69,7 @@ public class EnemyAI : MonoBehaviour
             StartCoroutine(pause());
         }
     }
+    
 
     private IEnumerator pause()
     {
