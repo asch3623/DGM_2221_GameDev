@@ -10,7 +10,7 @@ public class HealthText : MonoBehaviour
         t = GetComponent<Text>();
         t.text = health.value + " / " + maxHealth.value;
     }
-    void UpdateText()
+    public void UpdateText()
     {
         t.text = health.value + " / " + maxHealth.value;
     }

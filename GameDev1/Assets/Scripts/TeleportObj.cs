@@ -4,8 +4,7 @@ using UnityEngine.Events;
 
 public class TeleportObj : MonoBehaviour
 {
-   public UnityEvent teleport;
-   public GameObject currentObj;
+    public GameObject currentObj;
 
    public void TeleportObjtoPosition(GameObject targetTransform)
    {

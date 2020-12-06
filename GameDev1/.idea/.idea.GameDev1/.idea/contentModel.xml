@@ -6,6 +6,7 @@
     <e p="C:\Users\Annika\Documents\gitRepo\DGM_2221_GameDev\GameDev1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="FadeText.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AiPatrolBehavior.cs" t="Include" />
@@ -51,12 +52,14 @@
             <e p="InventorySystem.cs" t="Include" />
             <e p="ItemObj.cs" t="Include" />
             <e p="ItemPickUp.cs" t="Include" />
+            <e p="UIReference.cs" t="Include" />
           </e>
           <e p="LivesScript.cs" t="Include" />
           <e p="LoadScene.cs" t="Include" />
           <e p="MissionInfo.cs" t="Include" />
           <e p="MonoBehaviorEvents.cs" t="Include" />
           <e p="nameInput.cs" t="Include" />
+          <e p="OtherInteractions.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="TeleportObj.cs" t="Include" />

@@ -26,7 +26,6 @@ private bool isThisConvo;
 
    public void ConversationEnd()
    {
-      
       if (dialogueSystem.convoIsFinished && isThisConvo)
       {
        finishAction.Invoke();

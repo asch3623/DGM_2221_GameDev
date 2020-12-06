@@ -109,3 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: ebd107250c314a346a746d8f033b3434, type: 2}
+  addedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  textUi: {fileID: 3630595786955109827, guid: 5d276da3afa214147a0bfb7c4f2685e5, type: 3}

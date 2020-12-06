@@ -61,8 +61,10 @@ public class WeaponBehavior : MonoBehaviour
 
    private void OnTriggerEnter(Collider other)
    {
+      
       if (other.tag == "Enemy")
       {
+         Debug.Log("hit");
          if (other.GetComponent<EnemyBehaviour>() == null)
          {
             other.transform.parent.GetComponent<EnemyBehaviour>().PlayerAttackEnemy();

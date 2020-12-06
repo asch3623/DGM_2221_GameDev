@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f7f7359a4abfe4b8a9ba260f5f1879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textLookTargetTransform: {fileID: 0}
+  myCameraTransform: {fileID: 0}
 --- !u!1 &1356918649127915600
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,10 +767,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   myCameraTransform: {fileID: 0}

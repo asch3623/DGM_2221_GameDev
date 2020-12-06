@@ -17,4 +17,6 @@ MonoBehaviour:
     dialogue: Man, you sure sleep a lot don't you. I guess life can get pretty pointless
       herding alpacas all day.
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
-    dialogue: Wait, but what's that?
+    dialogue: Wait, but what's that? The alpacas got out again.
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: Go look for them.

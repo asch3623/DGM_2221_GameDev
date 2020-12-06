@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class InstanceWeapon : MonoBehaviour
 {
     public GameObject weapon;
-    public UnityEvent turnOnUI, turnOffUi;
+    public UnityEvent turnOnUI, turnOffUi, unequipEvent;
     private ItemObj item;
     private InstanceWeapon _instanceWeapon;
     private Vector3 zero;
@@ -21,9 +21,9 @@ public class InstanceWeapon : MonoBehaviour
 
     public void Equip()
     {
-       var newWeapon = Instantiate(weapon, zero, Quaternion.identity);
+       var newWeapon = Instantiate(weapon, weapon.transform.position, weapon.transform.rotation);
        
-       newWeapon.transform.parent = gameObject.transform;
+       newWeapon.transform.parent = gameObject.transform.parent;
 
        turnOnUI.Invoke();
     }
@@ -41,7 +41,19 @@ public class InstanceWeapon : MonoBehaviour
         turnOffUi.Invoke();
         item = weapon.GetComponent<WeaponBehavior>().weapon;
         InventorySystem.instance.Add(item);
-        Destroy(gameObject.transform.GetChild(1).transform.GetChild(0).gameObject);
+        FindWeapon();
+        unequipEvent.Invoke();
         _instanceWeapon.enabled = false;
+    }
+
+    private void FindWeapon()
+    {
+        foreach (Transform child in gameObject.transform.parent.transform)
+        {
+            if (child.GetComponent<WeaponBehavior>())
+            {
+                Destroy(child.gameObject);
+            }
+        }
     }
 }
