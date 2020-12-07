@@ -123,19 +123,6 @@ public class DialogueSystem : MonoBehaviour
           index++;
         }
       }
-      if (text[index] == '<')
-      {
-        while (text[index] != '>')
-        {
-          index++;
-          a++;
-        }
-
-        if (text[index] == '>')
-        {
-          index = a + 2;
-        }
-      }
 
       dialogue.text += text[index];
         index++;

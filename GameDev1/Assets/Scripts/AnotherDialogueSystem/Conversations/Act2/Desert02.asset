@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
   m_Name: Desert02
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: Ew, what is that thing? Looks dangerous. Hey, you picked up a <color=#f00>Stick</color>
+      earlier, right? Go ahead and whack this thing for me.

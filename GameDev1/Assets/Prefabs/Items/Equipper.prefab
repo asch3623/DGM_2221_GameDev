@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7701499585202110406}
   - component: {fileID: 2098465419}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: Equipper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

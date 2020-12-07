@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
+  m_Name: Desert03
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: You did it! That thing dropped a  <color=#f00>Health Potion</color>.
+      Hopefully you don't have to use it.
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: I'd ask you what that was, but since you're just a voice in my head
+      I doubt you know.
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: Hey, I'm sure that guy over there knows something. Why don't we ask
+      him?
