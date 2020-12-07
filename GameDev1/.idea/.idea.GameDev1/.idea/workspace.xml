@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/DataTypes/Vector3Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/ImageBehavior.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.3/Runtime/Behaviours/CinemachineBrain.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/TransformBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/SpriteMove.cs" root0="SKIP_HIGHLIGHTING" />
@@ -101,7 +102,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
@@ -131,6 +131,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OtherInteractions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
       </list>
     </option>
   </component>
@@ -221,7 +222,7 @@
       <workItem from="1607142280340" duration="567000" />
       <workItem from="1607202543035" duration="20883000" />
       <workItem from="1607276263042" duration="6670000" />
-      <workItem from="1607288674157" duration="12686000" />
+      <workItem from="1607288674157" duration="15965000" />
     </task>
     <servers />
   </component>

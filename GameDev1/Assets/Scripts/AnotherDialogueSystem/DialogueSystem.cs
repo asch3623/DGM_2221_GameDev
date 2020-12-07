@@ -67,8 +67,8 @@ public class DialogueSystem : MonoBehaviour
     if (currentIndex > currentConvo.GetLength())
     {
       anim.SetBool("isOpen", false);
-      convoIsFinished = true;
-      onConvoFinish.Invoke();
+      instance.convoIsFinished = true;
+      instance.onConvoFinish.Invoke();
 
       //old event system
       // if (eventCount < nextActions.Length-1 && nextActions[eventCount] != null)
@@ -109,18 +109,31 @@ public class DialogueSystem : MonoBehaviour
 // my own code, inputs player name when I use <> i'm so proud
     while (!complete)
     {
-      
-      if (text[index] == '<')
+      int a = 0;
+      if (text[index] == '[')
       {
-        while (text[index] != '>')
+        while (text[index] != ']')
         {
           dialogue.text += player.speakerName;
           index++;
         }
 
-        if (text[index] == '>')
+        if (text[index] == ']')
         {
           index++;
+        }
+      }
+      if (text[index] == '<')
+      {
+        while (text[index] != '>')
+        {
+          index++;
+          a++;
+        }
+
+        if (text[index] == '>')
+        {
+          index = a + 2;
         }
       }
 
