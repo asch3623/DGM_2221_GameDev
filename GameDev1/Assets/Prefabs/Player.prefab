@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 1828768931877083892}
   - component: {fileID: 1828768931877083895}
   - component: {fileID: 1828768931877083894}
+  - component: {fileID: 322632686}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -326,6 +327,19 @@ MonoBehaviour:
   rotateSpeed: 1
   jumpSpeed: 8
   gravity: 20
+--- !u!114 &322632686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828768931877083897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a130e73dc519fb4eb28ecb9cbe14b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentObj: {fileID: 1828768931877083897}
 --- !u!1 &1828768932814145060
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 869d6f227fb0ad24482ccc93d4d47082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 7955252049298782538, guid: 837ca6b4f6e59c940b59a5c618c556e0, type: 3}
   turnOnUI:
     m_PersistentCalls:
       m_Calls: []
@@ -794,3 +807,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  isAlreadyEquipped: {fileID: 11400000, guid: d0697b574f9b1434a84c9b7b77ad6097, type: 2}

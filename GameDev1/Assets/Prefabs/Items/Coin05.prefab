@@ -125,3 +125,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  textUi: {fileID: 3630595786955109827, guid: 5d276da3afa214147a0bfb7c4f2685e5, type: 3}

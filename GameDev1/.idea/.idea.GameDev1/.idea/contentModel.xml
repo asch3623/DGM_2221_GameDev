@@ -33,6 +33,7 @@
             <e p="EnemyBehaviour.cs" t="Include" />
             <e p="EnemyUIBehaviour.cs" t="Include" />
           </e>
+          <e p="FeedAlpaca.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
@@ -52,6 +53,7 @@
             <e p="InventorySystem.cs" t="Include" />
             <e p="ItemObj.cs" t="Include" />
             <e p="ItemPickUp.cs" t="Include" />
+            <e p="onMouseOver.cs" t="Include" />
             <e p="UIReference.cs" t="Include" />
           </e>
           <e p="LivesScript.cs" t="Include" />
@@ -68,6 +70,7 @@
           <e p="TriggerEvents.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="InstanceWeapon.cs" t="Include" />
+            <e p="ItemInfo.cs" t="Include" />
             <e p="WeaponBehavior.cs" t="Include" />
           </e>
         </e>

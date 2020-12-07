@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80e2660481e5d14797b561ca88cb22b, type: 3}
   m_Name: Sponge Cake
   m_EditorClassIdentifier: 
+  type: 1
   itemName: Sponge Cake
   icon: {fileID: 21300000, guid: 4c61f946b58caa84f9ab58c60bf02bda, type: 3}
   amount: 0

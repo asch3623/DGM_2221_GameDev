@@ -171,6 +171,8 @@ GameObject:
   - component: {fileID: 7478476690491431043}
   - component: {fileID: 7478476690491431068}
   - component: {fileID: 1726288615234531857}
+  - component: {fileID: 8400832529059590305}
+  - component: {fileID: 804197039624435605}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -187,7 +189,7 @@ RectTransform:
   m_GameObject: {fileID: 7478476690491431070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.79764, y: 0.79764, z: 0.79764}
+  m_LocalScale: {x: 1.125151, y: 1.1251509, z: 1.1251509}
   m_Children:
   - {fileID: 7478476690741205335}
   - {fileID: 7478476688836978440}
@@ -306,6 +308,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 0}
+  isEquipped: {fileID: 11400000, guid: d0697b574f9b1434a84c9b7b77ad6097, type: 2}
+  pickUpBox: {fileID: 6404663442706709579, guid: 11e85f046d64f23498a9f39c4a4cf8a4,
+    type: 3}
+  thisItemIsClicked: 0
+  textUi: {fileID: 3630595786955109827, guid: 5d276da3afa214147a0bfb7c4f2685e5, type: 3}
+--- !u!114 &8400832529059590305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478476690491431070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8732d2eac312034cb547e5181b5467d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: {fileID: 26649980347372689, guid: 484c58f6b95550d4e85455b21264d868,
+    type: 3}
+--- !u!114 &804197039624435605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478476690491431070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8400832529059590305}
+          m_TargetAssemblyTypeName: onMouseOver, Assembly-CSharp
+          m_MethodName: ItemDisplayDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8400832529059590305}
+          m_TargetAssemblyTypeName: onMouseOver, Assembly-CSharp
+          m_MethodName: OnMouseExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &7478476690741205328
 GameObject:
   m_ObjectHideFlags: 0

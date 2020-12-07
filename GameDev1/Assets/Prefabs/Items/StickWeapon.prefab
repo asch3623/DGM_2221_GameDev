@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 7955252049298782540}
   - component: {fileID: 7955252049298782541}
   - component: {fileID: 49274611177286849}
+  - component: {fileID: -4270963009793498802}
   m_Layer: 0
   m_Name: StickWeapon
   m_TagString: Weapon
@@ -289,3 +290,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4270963009793498802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7955252049298782538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13fcec911183c54180d2aec19daaca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: f8cacc0bf4968b94da59e6ab72a79dae, type: 2}

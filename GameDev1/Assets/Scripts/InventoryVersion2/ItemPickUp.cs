@@ -32,6 +32,7 @@ public class ItemPickUp : MonoBehaviour
         {
             InventorySystem.instance.Add(item);
             addedEvent.Invoke();
+            CreateText();
             gameObject.GetComponent<MeshRenderer>().enabled = false;
             gameObject.GetComponent<Collider>().enabled = false;
             Destroy(gameObject);
@@ -41,9 +42,9 @@ public class ItemPickUp : MonoBehaviour
     
     public void CreateText()
     {
+        t.text = "Added: <color=#00ff00ff>" + item.name + "</color> to inventory!";
         Instantiate(textUi, UIReference.instance.transform);
         //gameObject.transform.parent = thisCanvas.transform;
-        t.text = "Added: <color=#00ff00ff>" + item.name + "</color> to inventory!";
     }
 
 

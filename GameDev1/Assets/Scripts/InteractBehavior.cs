@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class InteractBehavior : MonoBehaviour
@@ -47,6 +46,7 @@ public class InteractBehavior : MonoBehaviour
                 anim.SetBool("isOpen", false);
                 if (hasAllAlpacas)
                 {
+                    isInRange = false;
                     Event.Invoke();
                 }
         }

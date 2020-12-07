@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
-using UnityEngine.Animations;
 using UnityEngine.Events;
-using UnityEngine.UIElements;
 
 public class InstanceWeapon : MonoBehaviour
 {
-    public GameObject weapon;
+    private GameObject thisWeapon;
     public UnityEvent turnOnUI, turnOffUi, unequipEvent;
     private ItemObj item;
     private InstanceWeapon _instanceWeapon;
     private Vector3 zero;
+    public BoolData isAlreadyEquipped;
 
 
     private void Start()
@@ -19,13 +18,23 @@ public class InstanceWeapon : MonoBehaviour
 
     }
 
-    public void Equip()
+    public void Equip(GameObject weapon)
     {
-       var newWeapon = Instantiate(weapon, weapon.transform.position, weapon.transform.rotation);
+        if (isAlreadyEquipped.value == false)
+        {
+            thisWeapon = weapon;
+            var newWeapon = Instantiate(weapon, weapon.transform.position, weapon.transform.rotation);
+                   
+            newWeapon.transform.parent = gameObject.transform.parent;
+            
+            turnOnUI.Invoke();
+            isAlreadyEquipped.value = true;
+        }
+        else
+        {
+            print("Item already equipped.");
+        }
        
-       newWeapon.transform.parent = gameObject.transform.parent;
-
-       turnOnUI.Invoke();
     }
 
     public void Update()
@@ -39,10 +48,11 @@ public class InstanceWeapon : MonoBehaviour
     public void UnEquip()
     {
         turnOffUi.Invoke();
-        item = weapon.GetComponent<WeaponBehavior>().weapon;
+        item = thisWeapon.GetComponent<ItemInfo>().item;
         InventorySystem.instance.Add(item);
         FindWeapon();
         unequipEvent.Invoke();
+        isAlreadyEquipped.value = false;
         _instanceWeapon.enabled = false;
     }
 
@@ -50,7 +60,7 @@ public class InstanceWeapon : MonoBehaviour
     {
         foreach (Transform child in gameObject.transform.parent.transform)
         {
-            if (child.GetComponent<WeaponBehavior>())
+            if (child.GetComponent<ItemInfo>() != null)
             {
                 Destroy(child.gameObject);
             }

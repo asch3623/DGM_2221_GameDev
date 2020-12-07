@@ -16,12 +16,20 @@ public class OtherInteractions : MonoBehaviour
    }
    private void OnTriggerEnter(Collider other)
    {
-      isInRange = true;
+      if (other.tag == "Player")
+      {
+         isInRange = true;
+      }
+      
 
    }
    private void OnTriggerExit(Collider other)
    {
-      isInRange = false;
+      if (other.tag == "Player")
+      {
+         isInRange = false; 
+      }
+  
 
    }
 }

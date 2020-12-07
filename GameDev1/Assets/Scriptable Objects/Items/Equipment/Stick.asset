@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93aefdbc9291e0941a6c03aa1fdd03c3, type: 3}
   m_Name: Stick
   m_EditorClassIdentifier: 
+  type: 0
   itemName: Stick
   icon: {fileID: 21300000, guid: c21bbf08f5aa8dc4484038f90789ef02, type: 3}
-  amount: 0
-  description: What's brown and sticky?
+  amount: 1
+  description: 'What''s brown and sticky? Attack Damage: -2'
   useEvent:
     m_PersistentCalls:
       m_Calls:
