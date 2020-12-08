@@ -11,8 +11,8 @@ public class TransparencyFade : MonoBehaviour
     private float transparency;
     public UnityEvent onComplete;
     private float i = 0.7f;
-    private Color mColor;
-    private MeshRenderer mesh;
+    public Color mColor;
+    public MeshRenderer mesh;
     private EnemyBehaviour enemy;
     private Collider col;
 

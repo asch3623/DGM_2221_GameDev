@@ -31,6 +31,7 @@
           <e p="DestroyAttachedObj.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="EnemyBehaviour.cs" t="Include" />
+            <e p="EnemySpawn.cs" t="Include" />
             <e p="EnemyUIBehaviour.cs" t="Include" />
           </e>
           <e p="FeedAlpaca.cs" t="Include" />

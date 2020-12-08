@@ -7,7 +7,7 @@ public class AlwaysLookAt : MonoBehaviour
     public Transform myCameraTransform;
     
 
-    public void FaceTextMeshToCamera()
+    private void Update()
     {
         textMeshObject = gameObject.transform;
         textMeshObject.forward = myCameraTransform.forward;

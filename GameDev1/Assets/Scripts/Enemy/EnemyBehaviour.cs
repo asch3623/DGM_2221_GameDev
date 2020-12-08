@@ -11,6 +11,8 @@ public class EnemyBehaviour : MonoBehaviour
     public IntData playerAttackDamage;
     public float enemyHealth, enemyHealthMax;
     public UnityEvent onPlayerAttackEvent;
+    public bool isDead;
+    private EnemySpawn spawn;
 
     public List<GameObject> lootItems;
     public int[] table =
@@ -29,13 +31,8 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Start()
     {
-        pos = new Vector3(Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
         fade = GetComponent<TransparencyFade>();
-    }
-
-    public void InstantiateObj()
-    {
-        Instantiate(gameObject, pos, gameObject.transform.rotation);
+        spawn = gameObject.transform.parent.gameObject.GetComponent<EnemySpawn>();
     }
 
 
@@ -57,8 +54,10 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (fade.complete)
         {
+            isDead = true;
             RandomItemDrop();
-            Destroy(gameObject);
+            spawn.BringBack();
+            gameObject.SetActive(false);
         }
     }
     
@@ -87,23 +86,30 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void RandomItemDrop()
     {
-        foreach (var item in table)
+        if (isDead)
         {
-          total += item;  
+            print("is running function");
+            
+            foreach (var item in table)
+            {
+                total += item;  
+            }
+                    
+            int randomNumber = Random.Range(0, total);
+            for (int i = 0; i < table.Length; i++)
+            {
+                if (randomNumber <= table[i])
+                {
+                    print("is dropping loot");
+                    Instantiate(lootItems[i], gameObject.transform.position, Quaternion.identity);
+                    return;
+                }
+                else
+                {
+                    randomNumber -= table[i];
+                }
+            }
         }
         
-        int randomNumber = Random.Range(0, total);
-        for (int i = 0; i < table.Length; i++)
-        {
-            if (randomNumber <= table[i])
-            {
-                Instantiate(lootItems[i], gameObject.transform.position, Quaternion.identity);
-                return;
-            }
-            else
-            {
-                randomNumber -= table[i];
-            }
-        }
     }
 }

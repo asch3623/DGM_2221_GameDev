@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80e2660481e5d14797b561ca88cb22b, type: 3}
   m_Name: Hay
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   itemName: Hay
   icon: {fileID: 21300000, guid: 63557c0e34e4fee44b409ab2327dcaee, type: 3}
-  amount: 6
+  amount: 0
   description: Nutritious alpaca meal! Get close to an alpaca with this in hand to
     feed.
   updateHealth:

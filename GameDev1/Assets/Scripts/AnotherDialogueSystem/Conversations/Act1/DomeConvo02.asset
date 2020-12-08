@@ -19,6 +19,6 @@ MonoBehaviour:
     dialogue: What?
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
     dialogue: Never mind that, can't you see your alpacas are loose? How could you
-      let this happen, <>?
+      let this happen, []?
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
     dialogue: Just search around the Dome and see if you can find them.

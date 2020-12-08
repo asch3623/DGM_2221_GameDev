@@ -18,7 +18,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
     dialogue: The door is open! Did alpacas develop an ability to open doors?
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
-    dialogue: No, <>, but this is interesting. SOMEONE opened the door and let all
+    dialogue: No, [], but this is interesting. SOMEONE opened the door and let all
       of your alpacas out.
   - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
     dialogue: Why would anyone do that? I hardly remember anything, but I do know

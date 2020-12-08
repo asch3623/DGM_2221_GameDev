@@ -19,7 +19,7 @@ MonoBehaviour:
     dialogue: Sure, yeah. All the alpacas are rounded up. Now can you please tell
       me what's going on?
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
-    dialogue: I'd love to, <>, but I'm afraid I'm just a voice in your head. I don't
+    dialogue: I'd love to, [], but I'm afraid I'm just a voice in your head. I don't
       know any more than you do.
   - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
     dialogue: What?
