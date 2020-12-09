@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AllItems.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ItemFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/DefaultObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/EquipmentObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/PlayerInventoryBehaviour.cs" />
@@ -103,7 +103,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIWander.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AllItems.cs" />
@@ -129,10 +128,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OtherInteractions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/ItemFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" />
       </list>
     </option>
   </component>
@@ -224,7 +225,8 @@
       <workItem from="1607202543035" duration="20883000" />
       <workItem from="1607276263042" duration="6670000" />
       <workItem from="1607288674157" duration="18008000" />
-      <workItem from="1607365248407" duration="11439000" />
+      <workItem from="1607365248407" duration="12229000" />
+      <workItem from="1607489643214" duration="6326000" />
     </task>
     <servers />
   </component>

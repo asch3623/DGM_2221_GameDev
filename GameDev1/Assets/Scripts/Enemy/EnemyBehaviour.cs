@@ -13,7 +13,10 @@ public class EnemyBehaviour : MonoBehaviour
     public UnityEvent onPlayerAttackEvent;
     public bool isDead;
     private EnemySpawn spawn;
-
+    
+    private int seconds = 1, total;
+    private TransparencyFade fade;
+    private Vector3 pos;
     public List<GameObject> lootItems;
     public int[] table =
     {
@@ -21,13 +24,6 @@ public class EnemyBehaviour : MonoBehaviour
         30,
         10
     };
-
-    private int total;
-    
-    
-    private int seconds = 1;
-    private TransparencyFade fade;
-    private Vector3 pos;
 
     private void Start()
     {
@@ -54,8 +50,8 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (fade.complete)
         {
-            isDead = true;
             RandomItemDrop();
+            isDead = true;
             spawn.BringBack();
             gameObject.SetActive(false);
         }
@@ -86,30 +82,30 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void RandomItemDrop()
     {
-        if (isDead)
+        int count = 0;
+
+        foreach (var item in table)
         {
-            print("is running function");
-            
-            foreach (var item in table)
+            count += item;
+              
+        }
+        total = count;
+        int randomNumber = Random.Range(0, total);
+        for (int i = 0; i < table.Length; i++)
+        {
+            if (randomNumber <= table[i])
             {
-                total += item;  
+                print("will drop loot");
+                var obj = Instantiate(lootItems[i], gameObject.transform.parent.gameObject.transform);
+                obj.transform.position = gameObject.transform.position;
+                return;
             }
-                    
-            int randomNumber = Random.Range(0, total);
-            for (int i = 0; i < table.Length; i++)
+            else
             {
-                if (randomNumber <= table[i])
-                {
-                    print("is dropping loot");
-                    Instantiate(lootItems[i], gameObject.transform.position, Quaternion.identity);
-                    return;
-                }
-                else
-                {
-                    randomNumber -= table[i];
-                }
+                randomNumber -= table[i];
             }
         }
         
     }
+    
 }

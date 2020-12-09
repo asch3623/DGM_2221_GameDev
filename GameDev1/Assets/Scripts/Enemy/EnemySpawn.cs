@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EnemySpawn : MonoBehaviour
 {
@@ -24,7 +26,7 @@ public class EnemySpawn : MonoBehaviour
     public void BringBack()
     {
         fade.complete = false;
-            StartCoroutine(timer());
+        StartCoroutine(timer());
     }
 
     private IEnumerator timer()
@@ -40,5 +42,5 @@ public class EnemySpawn : MonoBehaviour
         healthUi.UpdateValue();
         yield return new WaitForSeconds(wait);
     }
-    
+
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2443036247601838529}
   - component: {fileID: 3535005920553524270}
   - component: {fileID: 7349218338714036982}
+  - component: {fileID: 3982582509283111499}
   m_Layer: 0
   m_Name: HealthPotion
   m_TagString: Untagged
@@ -113,3 +114,48 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   textUi: {fileID: 3630595786955109827, guid: 5d276da3afa214147a0bfb7c4f2685e5, type: 3}
+--- !u!114 &3982582509283111499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7349218338714036937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3e9b972bf1b2e4fb8ed8b0a4009e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complete: 0
+  onComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3982582509283111499}
+        m_TargetAssemblyTypeName: ItemFade, Assembly-CSharp
+        m_MethodName: DestroyAfterFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDoneWaiting:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3982582509283111499}
+        m_TargetAssemblyTypeName: ItemFade, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  mColor: {r: 0, g: 0, b: 0, a: 0}
+  mesh: {fileID: 0}

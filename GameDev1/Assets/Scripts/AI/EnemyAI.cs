@@ -22,7 +22,7 @@ public class EnemyAI : MonoBehaviour
 
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
-    private int seconds = 1;
+    private int seconds = 2, pauseSeconds = 1;
 
     private void Awake()
     {
@@ -73,7 +73,7 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator pause()
     {
-        yield return new WaitForSeconds(seconds);
+        yield return new WaitForSeconds(pauseSeconds);
     }
     private void ChasePlayer()
     {

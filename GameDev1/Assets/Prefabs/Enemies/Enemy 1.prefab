@@ -355,8 +355,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7970123, y: 1.6548691, z: 2.2774506}
-  m_Center: {x: -0.009315491, y: 0.32743454, z: -0.0058670044}
+  m_Size: {x: 1.5346375, y: 1.6548691, z: 1.8838196}
+  m_Center: {x: -0.054595947, y: 0.32743454, z: -0.0033950806}
 --- !u!114 &1356918647453896439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,10 +522,8 @@ GameObject:
   - component: {fileID: 1356918649127915603}
   - component: {fileID: 1356918649127915602}
   - component: {fileID: 1798819501775391424}
-  - component: {fileID: 8171345218822886916}
   - component: {fileID: 1798819501866711353}
   - component: {fileID: 537840421199677076}
-  - component: {fileID: 5569405507700666601}
   - component: {fileID: 1356918649127915614}
   - component: {fileID: 1356918649127915615}
   m_Layer: 0
@@ -627,35 +625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48fac56e7d7f66e4fb4a032733a6b706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8171345218822886916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356918649127915600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a55d9b7d363254dadd071037d56c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameAction: {fileID: 11400000, guid: bb35eaec915a7c14081dca938f93e1b7, type: 2}
-  handlerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1798819501866711353}
-        m_TargetAssemblyTypeName: TransparencyFade, Assembly-CSharp
-        m_MethodName: StartFade
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  holdTime: 0
 --- !u!114 &1798819501866711353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,9 +641,9 @@ MonoBehaviour:
   onComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: de8b2eef988e18948aa4bf69aac4a427, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
+      - m_Target: {fileID: 537840421199677076}
+        m_TargetAssemblyTypeName: EnemyBehaviour, Assembly-CSharp
+        m_MethodName: DestroyObj
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -684,6 +653,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  mColor: {r: 0, g: 0, b: 0, a: 0}
+  mesh: {fileID: 0}
 --- !u!114 &537840421199677076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,40 +685,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isDead: 0
   lootItems:
-  - {fileID: 2833340349578180643, guid: 7b2545f1eaf3bc24db4eb60f89d23a13, type: 3}
   - {fileID: 7349218338714036937, guid: c31ab0bd11ac467459c789fe31aae78b, type: 3}
+  - {fileID: 2833340349578180643, guid: 7b2545f1eaf3bc24db4eb60f89d23a13, type: 3}
   - {fileID: 2415876501785070729, guid: a37d95703bc1d564ea1affb2a47eda2f, type: 3}
   table: 3c0000001e0000000a000000
---- !u!114 &5569405507700666601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356918649127915600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a55d9b7d363254dadd071037d56c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameAction: {fileID: 11400000, guid: de8b2eef988e18948aa4bf69aac4a427, type: 2}
-  handlerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 537840421199677076}
-        m_TargetAssemblyTypeName: EnemyBehaviour, Assembly-CSharp
-        m_MethodName: DestroyObj
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  holdTime: 0
 --- !u!114 &1356918649127915614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,6 +710,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   patrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   myCameraTransform: {fileID: 0}
@@ -808,7 +755,6 @@ GameObject:
   - component: {fileID: 1635938961232753212}
   - component: {fileID: 807039187118279136}
   - component: {fileID: 5458436908747707216}
-  - component: {fileID: 1798819500157479416}
   - component: {fileID: 1798819502137028241}
   m_Layer: 0
   m_Name: Health
@@ -874,35 +820,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1798819500157479416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020864187357970192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a55d9b7d363254dadd071037d56c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameAction: {fileID: 11400000, guid: bb35eaec915a7c14081dca938f93e1b7, type: 2}
-  handlerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 537840421199677076}
-        m_TargetAssemblyTypeName: EnemyBehaviour, Assembly-CSharp
-        m_MethodName: SetImageFillAmount
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 5458436908747707216}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  holdTime: 2
 --- !u!114 &1798819502137028241
 MonoBehaviour:
   m_ObjectHideFlags: 0
