@@ -22,6 +22,10 @@ public class FloatData : ScriptableObject
     {
         value = maxValue;
     }
+    public void UpdateMaxValue(float num)
+    {
+        maxValue += num;
+    }
     
     public void SetImageFillAmount(Image img)
     {

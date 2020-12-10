@@ -14,17 +14,20 @@ public class EnemySpawn : MonoBehaviour
     private TransparencyFade fade;
     private int transparency = 1;
     private Collider col;
+    private EnemyAI ai;
 
     private void Start()
     {
-        enemy = gameObject.transform.GetComponentInChildren<EnemyBehaviour>();
-        enemyObj = gameObject.transform.GetChild(0).transform.gameObject;
+        ai = gameObject.transform.GetChild(0).gameObject.GetComponent<EnemyAI>();
+        enemyObj = gameObject.transform.GetChild(0).transform.GetChild(0).transform.gameObject;
+        enemy = enemyObj.GetComponent<EnemyBehaviour>();
         fade = enemyObj.GetComponent<TransparencyFade>();
         col = enemyObj.GetComponent<Collider>();
     }
 
     public void BringBack()
     {
+        ai.enabled = false;
         fade.complete = false;
         StartCoroutine(timer());
     }
@@ -40,6 +43,7 @@ public class EnemySpawn : MonoBehaviour
 
         enemy.SetValueToTheMaxValue();
         healthUi.UpdateValue();
+        ai.enabled = true;
         yield return new WaitForSeconds(wait);
     }
 

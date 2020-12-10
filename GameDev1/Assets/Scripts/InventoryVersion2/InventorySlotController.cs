@@ -47,8 +47,7 @@ public class InventorySlotController : MonoBehaviour
     {
         if (thisItemIsClicked)
         {
-            Debug.Log("is not equipped");
-             item.Use();
+            item.Use();
              item.amount--;
              
              if (item.amount == 0)

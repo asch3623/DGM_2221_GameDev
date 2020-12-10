@@ -16,7 +16,6 @@ public class onMouseOver : MonoBehaviour
 
     public void OnMouseExit()
     {
-        print("mouse has exited");
         description.gameObject.SetActive(false);
     }
 

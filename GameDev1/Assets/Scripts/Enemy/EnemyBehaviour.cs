@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.Events;
 using Random = UnityEngine.Random;
@@ -13,7 +14,7 @@ public class EnemyBehaviour : MonoBehaviour
     public UnityEvent onPlayerAttackEvent;
     public bool isDead;
     private EnemySpawn spawn;
-    
+
     private int seconds = 1, total;
     private TransparencyFade fade;
     private Vector3 pos;
@@ -28,7 +29,7 @@ public class EnemyBehaviour : MonoBehaviour
     private void Start()
     {
         fade = GetComponent<TransparencyFade>();
-        spawn = gameObject.transform.parent.gameObject.GetComponent<EnemySpawn>();
+        spawn = gameObject.transform.parent.transform.parent.gameObject.GetComponent<EnemySpawn>();
     }
 
 
@@ -80,7 +81,7 @@ public class EnemyBehaviour : MonoBehaviour
         enemyHealth = enemyHealthMax;
     }
 
-    public void RandomItemDrop()
+    public virtual void RandomItemDrop()
     {
         int count = 0;
 
@@ -96,8 +97,8 @@ public class EnemyBehaviour : MonoBehaviour
             if (randomNumber <= table[i])
             {
                 print("will drop loot");
-                var obj = Instantiate(lootItems[i], gameObject.transform.parent.gameObject.transform);
-                obj.transform.position = gameObject.transform.position;
+                var obj = Instantiate(lootItems[i], gameObject.transform.position, gameObject.transform.rotation);
+                gameObject.transform.position = obj.transform.position;
                 return;
             }
             else

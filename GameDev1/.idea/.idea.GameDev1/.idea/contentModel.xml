@@ -29,11 +29,13 @@
           <e p="CharControlMovement.cs" t="Include" />
           <e p="ColorTrigger.cs" t="Include" />
           <e p="CountChecker.cs" t="Include" />
+          <e p="CreateText.cs" t="Include" />
           <e p="DestroyAttachedObj.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="EnemyBehaviour.cs" t="Include" />
             <e p="EnemySpawn.cs" t="Include" />
             <e p="EnemyUIBehaviour.cs" t="Include" />
+            <e p="ReplaceLootItems.cs" t="Include" />
           </e>
           <e p="FeedAlpaca.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />

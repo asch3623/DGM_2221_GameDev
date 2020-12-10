@@ -7,11 +7,7 @@ public class CountChecker : MonoBehaviour
     public IntData maxCount, count;
     public UnityEvent Event;
 
-    private void Start()
-    {
-        count.value = 0;
-        maxCount.value = 5;
-    }
+    
 
     public void CheckMaxAlpacas()
     {

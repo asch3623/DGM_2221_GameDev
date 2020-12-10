@@ -9,6 +9,7 @@ public class FeedAlpaca : MonoBehaviour
     public IntData alpacaLove;
     public BoolData isEquipped;
     private bool isAwarded;
+    public UnityEvent gaveItem;
    
     private void OnTriggerEnter(Collider other)
     {
@@ -20,6 +21,13 @@ public class FeedAlpaca : MonoBehaviour
                 alpacaLove.value = 5;
             }
             CreateText();
+            isEquipped.value = false;
+            Destroy(gameObject);
+        }
+
+        if (other.gameObject.tag == "Greg")
+        {
+            gaveItem.Invoke();
             isEquipped.value = false;
             Destroy(gameObject);
         }

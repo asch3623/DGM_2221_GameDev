@@ -24,6 +24,8 @@ public class EnemyAI : MonoBehaviour
     public bool playerInSightRange, playerInAttackRange;
     private int seconds = 2, pauseSeconds = 1;
 
+    private Animator anim;
+
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -32,8 +34,9 @@ public class EnemyAI : MonoBehaviour
         {
              healthBar = gameObject.transform.Find("Canvas").transform;
         }
-       
-       
+
+        anim = gameObject.transform.Find("Enemy").GetComponent<Animator>();
+
 
     }
 
@@ -87,9 +90,7 @@ public class EnemyAI : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-            // my attack code here
-            
-            //end
+            anim.SetTrigger("isAttacking");
             alreadyAttacked = true;
             StartCoroutine(ResetAttack());
         }
@@ -97,7 +98,8 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator ResetAttack()
     {
-        yield return new WaitForSeconds(seconds);
+        yield return new WaitForSeconds(timeBetweenAttacks);
+        anim.ResetTrigger("isAttacking");
         alreadyAttacked = false;
     }
 }

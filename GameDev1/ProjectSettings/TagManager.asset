@@ -11,6 +11,7 @@ TagManager:
   - Ground
   - Platform
   - TextPopUp
+  - Greg
   layers:
   - Default
   - TransparentFX
