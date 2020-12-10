@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7d576498b658f4382caed981769900, type: 3}
-  m_Name: EnemyCount
+  m_Script: {fileID: 11500000, guid: fb60896fbc2ad0344833b16ba6833fe7, type: 3}
+  m_Name: HermitHat
   m_EditorClassIdentifier: 
-  value: 13
+  speakerName: Greg
+  speakerSprite: {fileID: 21300000, guid: 5df2698c69e147e46a37a5bb30ee0cd6, type: 3}

@@ -28,7 +28,6 @@ public class EnemySpawn : MonoBehaviour
     public void BringBack()
     {
         ai.enabled = false;
-        fade.complete = false;
         StartCoroutine(timer());
     }
 
@@ -38,7 +37,7 @@ public class EnemySpawn : MonoBehaviour
         enemyObj.SetActive(true);
         enemy.isDead = false;
         col.enabled = true;
-        
+        fade.complete = false;
         fade.mesh.material.color = new Color(fade.mColor.r, fade.mColor.g, fade.mColor.b, transparency);
 
         enemy.SetValueToTheMaxValue();

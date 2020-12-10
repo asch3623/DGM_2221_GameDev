@@ -11,11 +11,17 @@ public class FloatData : ScriptableObject
     public float maxValue;
     public float value;
     public UnityEvent lessThanZeroEvent, updateValueEvent;
+    private bool isComplete;
 
     public void UpdateValue(float num)
     {
         value += num;
         updateValueEvent.Invoke();
+    }
+
+    public void MaxValueAbleToUpgrade()
+    {
+        isComplete = false;
     }
     
     public void SetValuetotheMaxValue()
@@ -24,7 +30,13 @@ public class FloatData : ScriptableObject
     }
     public void UpdateMaxValue(float num)
     {
-        maxValue += num;
+        if (isComplete == false)
+        {
+            maxValue += num;
+            isComplete = true;
+        }
+        
+        
     }
     
     public void SetImageFillAmount(Image img)

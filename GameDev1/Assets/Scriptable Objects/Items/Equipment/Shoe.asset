@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   itemName: Shoe
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6dec6f15673827642855f6d09e48e803, type: 3}
   amount: 0
   description: Who loses just ONE shoe? Greg sure is weird.
   useEvent:

@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7d576498b658f4382caed981769900, type: 3}
-  m_Name: EnemyCount
+  m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
+  m_Name: Hermit05
   m_EditorClassIdentifier: 
-  value: 13
+  allLines:
+  - speaker: {fileID: 11400000, guid: 6aa18655b83cb10468adf0d5712fa9ec, type: 2}
+    dialogue: What are ya waiting for? Go on then!

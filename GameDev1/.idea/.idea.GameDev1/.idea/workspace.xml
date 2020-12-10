@@ -75,6 +75,7 @@
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/CoinPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -85,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/PlayerInventoryBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryBehaviours/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryBehaviours/PlayerInventoryBehaviour.cs" />
@@ -123,19 +123,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OtherInteractions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
         <option value="$PROJECT_DIR$/Assets/ItemFade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/onMouseOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ReplaceLootItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -229,7 +230,7 @@
       <workItem from="1607288674157" duration="18008000" />
       <workItem from="1607365248407" duration="12229000" />
       <workItem from="1607489643214" duration="6625000" />
-      <workItem from="1607539782474" duration="13232000" />
+      <workItem from="1607539782474" duration="16084000" />
     </task>
     <servers />
   </component>

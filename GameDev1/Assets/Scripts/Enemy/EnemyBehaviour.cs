@@ -81,7 +81,7 @@ public class EnemyBehaviour : MonoBehaviour
         enemyHealth = enemyHealthMax;
     }
 
-    public virtual void RandomItemDrop()
+    public void RandomItemDrop()
     {
         int count = 0;
 

@@ -45,6 +45,7 @@
           <e p="HealthImageBehavior.cs" t="Include" />
           <e p="HealthText.cs" t="Include" />
           <e p="ImageColorBehavior.cs" t="Include" />
+          <e p="Instance.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="InteractBehavior.cs" t="Include" />
           <e p="InventoryVersion2" t="Include">

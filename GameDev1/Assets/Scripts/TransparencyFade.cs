@@ -32,7 +32,7 @@ public class TransparencyFade : MonoBehaviour
     
     public void StartFade()
     {
-        if (FadeObj() != null)
+        if (complete == false)
         {
             StartCoroutine(FadeObj());
         }
@@ -56,6 +56,7 @@ public class TransparencyFade : MonoBehaviour
         }
 
     }
+    
 
     public void DestroyAfterFade()
     {

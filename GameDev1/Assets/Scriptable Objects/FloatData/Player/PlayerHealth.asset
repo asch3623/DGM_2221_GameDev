@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerHealth
   m_EditorClassIdentifier: 
   maxValue: 20
-  value: 20
+  value: 16
   lessThanZeroEvent:
     m_PersistentCalls:
       m_Calls:
