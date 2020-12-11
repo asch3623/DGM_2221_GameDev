@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb60896fbc2ad0344833b16ba6833fe7, type: 3}
   m_Name: Egg
   m_EditorClassIdentifier: 
-  speakerName: 
-  speakerSprite: {fileID: 0}
+  speakerName: Egg
+  speakerSprite: {fileID: 21300000, guid: 3568c1a88b2b9ae4d8123357b3b37768, type: 3}

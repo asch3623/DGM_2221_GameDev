@@ -12,4 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
   m_Name: Egg01
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 09cee26d2f5ef4c4888cb1fd7426a4bf, type: 2}
+    dialogue: Hey there! I'm Greg's cousin. . .
+  - speaker: {fileID: 11400000, guid: 09cee26d2f5ef4c4888cb1fd7426a4bf, type: 2}
+    dialogue: . . . Egg.
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: Egg?
+  - speaker: {fileID: 11400000, guid: d916fc83d4edeb540b4107f44e7ec6ee, type: 2}
+    dialogue: Anyway I heard there was something on top of these rocks, but I've
+      never been able to reach it.
+  - speaker: {fileID: 11400000, guid: d916fc83d4edeb540b4107f44e7ec6ee, type: 2}
+    dialogue: Hey, when you get good at climbing, you should tell me what's up there.
