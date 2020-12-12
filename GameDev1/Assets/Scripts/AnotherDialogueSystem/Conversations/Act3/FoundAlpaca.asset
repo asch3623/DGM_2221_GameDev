@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
+  m_Name: FoundAlpaca
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: You did it! Let's keep going. We're only on the edge of the city. We'll
+      find more towards the center.
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: Wait, I've never been here before. How can you know the layout of this
+      city? You're my subconcious.
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: Er -- did I say I knew this city? I'm just guessing. There's more buildings
+      up ahead, it just seems logical.
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: Whatever you say.

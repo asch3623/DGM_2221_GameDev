@@ -15,4 +15,4 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 09cee26d2f5ef4c4888cb1fd7426a4bf, type: 2}
     dialogue: I ain't talkin 'til you find my lucky shoe! I'm sure one of the Lurkers
-      'round here has it.
+      'round here has it. If you find it, give it to me.

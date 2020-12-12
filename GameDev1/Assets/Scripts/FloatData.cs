@@ -10,7 +10,7 @@ public class FloatData : ScriptableObject
 {
     public float maxValue;
     public float value;
-    public UnityEvent lessThanZeroEvent, updateValueEvent;
+    public UnityEvent lessThanZeroEvent, updateValueEvent, equalValueEvent;
     private bool isComplete;
 
     public void UpdateValue(float num)
@@ -27,6 +27,7 @@ public class FloatData : ScriptableObject
     public void SetValuetotheMaxValue()
     {
         value = maxValue;
+        equalValueEvent.Invoke();
     }
     public void UpdateMaxValue(float num)
     {

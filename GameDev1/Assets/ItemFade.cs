@@ -38,7 +38,7 @@ public class ItemFade : MonoBehaviour
 
     public void StartFade()
     {
-        if (isDone = true)
+        if (isDone == true)
         {
             StartCoroutine(FadeObj());
 

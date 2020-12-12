@@ -6,7 +6,7 @@ public class HealthImageBehavior : MonoBehaviour
     public FloatData health;
     private Image healthUi;
     public Gradient gradient;
-    void Start()
+    void Awake()
     {
         healthUi = GetComponent<Image>();
         healthUi.fillAmount = health.value/health.maxValue;

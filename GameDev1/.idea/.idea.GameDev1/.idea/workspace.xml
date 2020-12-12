@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExperienceBarBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryBehaviours/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryBehaviours/PlayerInventoryBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" />
@@ -99,10 +96,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyUIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIWander.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AllItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySystem.cs" />
@@ -122,8 +117,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OtherInteractions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/ItemFade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/onMouseOver.cs" />
@@ -131,11 +124,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ReplaceLootItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instance.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerClimbWall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/ItemFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ExperienceBarBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIWander.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
@@ -232,6 +233,7 @@
       <workItem from="1607489643214" duration="6625000" />
       <workItem from="1607539782474" duration="16677000" />
       <workItem from="1607646127315" duration="1013000" />
+      <workItem from="1607709608042" duration="19346000" />
     </task>
     <servers />
   </component>

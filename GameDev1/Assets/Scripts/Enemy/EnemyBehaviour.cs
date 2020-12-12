@@ -29,7 +29,7 @@ public class EnemyBehaviour : MonoBehaviour
     private void Start()
     {
         fade = GetComponent<TransparencyFade>();
-        spawn = gameObject.transform.parent.transform.parent.gameObject.GetComponent<EnemySpawn>();
+        spawn = gameObject.transform.parent.transform.parent.GetComponent<EnemySpawn>();
     }
 
 
@@ -52,10 +52,11 @@ public class EnemyBehaviour : MonoBehaviour
         if (fade.complete)
         {
             RandomItemDrop();
-            isDead = true;
-            spawn.BringBack();
-            gameObject.SetActive(false);
+                      isDead = true;
+                      spawn.BringBack();
+                      gameObject.SetActive(false);  
         }
+        
     }
     
 

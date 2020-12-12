@@ -5,7 +5,7 @@ public class HealthText : MonoBehaviour
 {
     private Text t;
     public FloatData health;
-    void Start()
+    void Awake()
     {
         t = GetComponent<Text>();
         t.text = health.value + " / " + health.maxValue;

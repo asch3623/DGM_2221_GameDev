@@ -9,7 +9,7 @@ public class MonoBehaviorEvents : MonoBehaviour
     public UnityEvent startEvent, onEnableEvent;
     void Start()
     {
-        startEvent.Invoke();
+        startEvent?.Invoke();
     }
 
     private void OnEnable()

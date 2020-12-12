@@ -12,6 +12,7 @@ TagManager:
   - Platform
   - TextPopUp
   - Greg
+  - ClimbWall
   layers:
   - Default
   - TransparentFX

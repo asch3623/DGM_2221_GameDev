@@ -27,8 +27,6 @@ public class AIWander : MonoBehaviour
 
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange, isMovingToPen;
-    public Transform penEntrance, pen;
-    public BoolData isGateOpen;
     private int seconds = 1;
 
     private void Awake()

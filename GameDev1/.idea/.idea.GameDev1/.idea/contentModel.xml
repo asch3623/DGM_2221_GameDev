@@ -37,6 +37,7 @@
             <e p="EnemyUIBehaviour.cs" t="Include" />
             <e p="ReplaceLootItems.cs" t="Include" />
           </e>
+          <e p="ExperienceBarBehavior.cs" t="Include" />
           <e p="FeedAlpaca.cs" t="Include" />
           <e p="FillImageBehavior.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />

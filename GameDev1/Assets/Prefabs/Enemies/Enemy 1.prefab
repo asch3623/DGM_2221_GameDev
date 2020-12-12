@@ -390,7 +390,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Lurker Level: 1
+  m_Text: 'Lurker Level: 2
+
 
 '
 --- !u!1 &1356918647453896437
@@ -464,7 +465,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -1
+          m_FloatArgument: -2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -607,6 +608,7 @@ GameObject:
   - component: {fileID: 1798819501866711353}
   - component: {fileID: 537840421199677076}
   - component: {fileID: 1784360498}
+  - component: {fileID: 1784360499}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Enemy
@@ -722,33 +724,57 @@ MonoBehaviour:
   onComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 537840421199677076}
+      - m_Target: {fileID: 11400000, guid: 00c073e836321fa44a4969c4b76c0c3b, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: ChangeValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CountChecker, Assembly-CSharp
+        m_MethodName: CheckMaxAlpacas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 444b21c44d1a4cb489423d8b875fef2d, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ExperienceBarBehavior, Assembly-CSharp
+        m_MethodName: UpdateImageFill
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: EnemyBehaviour, Assembly-CSharp
-        m_MethodName: RandomItemDrop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 708d4e028ecb6244192580149bf7900d, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: de8b2eef988e18948aa4bf69aac4a427, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
+        m_MethodName: DestroyObj
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -792,9 +818,9 @@ MonoBehaviour:
         m_CallState: 2
   isDead: 0
   lootItems:
+  - {fileID: 2833340349578180643, guid: 7b2545f1eaf3bc24db4eb60f89d23a13, type: 3}
   - {fileID: 7349218338714036937, guid: c31ab0bd11ac467459c789fe31aae78b, type: 3}
-  - {fileID: 7349218338714036937, guid: c31ab0bd11ac467459c789fe31aae78b, type: 3}
-  - {fileID: 7349218338714036937, guid: c31ab0bd11ac467459c789fe31aae78b, type: 3}
+  - {fileID: 2415876501785070729, guid: a37d95703bc1d564ea1affb2a47eda2f, type: 3}
   table: 3c0000001e0000000a000000
 --- !u!95 &1784360498
 Animator:
@@ -815,6 +841,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1784360499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356918649127915600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47034d813d1f54e47828c99a121e98bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalLootItemList:
+  - {fileID: 2833340349578180643, guid: 7b2545f1eaf3bc24db4eb60f89d23a13, type: 3}
+  - {fileID: 7349218338714036937, guid: c31ab0bd11ac467459c789fe31aae78b, type: 3}
+  - {fileID: 2415876501785070729, guid: a37d95703bc1d564ea1affb2a47eda2f, type: 3}
 --- !u!1 &2020864187357970192
 GameObject:
   m_ObjectHideFlags: 0
