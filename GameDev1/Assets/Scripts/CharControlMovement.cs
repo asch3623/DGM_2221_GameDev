@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 public class CharControlMovement : MonoBehaviour
 {
-    public float rotateSpeed = 1.5f;
+    public float rotateSpeed = 3f;
     public float jumpSpeed = 8f;
     public float gravity = 20f;
 

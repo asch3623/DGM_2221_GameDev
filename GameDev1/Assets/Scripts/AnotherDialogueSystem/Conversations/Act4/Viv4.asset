@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
+  m_Name: Viv4
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
+    dialogue: But there's one final problem. The original Lurker, the one who caused
+      all of these problems, is still with you.
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: She's LYING! You can't PROVE IT! I watched you KILL all of those Lurkers
+      and did NOTHING, I'm on your side!
+  - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
+    dialogue: It wants access to the science lab. We left some dark energy there
+      that could increase its power. I bet it thought you could help it.
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: You were just using me???
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: Now, [], listen to ME, we're BUDDIES, right? You gotta JUSt -- TAKE
+      me to that LAB, yeah? I CAN Solve the LURKER problem!
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: Get out of my head!

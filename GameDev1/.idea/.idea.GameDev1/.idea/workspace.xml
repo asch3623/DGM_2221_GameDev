@@ -55,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/ReplaceLootItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/AI/PatrolandFollow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/UIReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/BuyItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FadeText.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,10 +71,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIWander.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AddStick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/pauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/ItemObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AppQuit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Speaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/CoinPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instance.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,13 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyUIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
@@ -109,8 +106,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/ItemPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/ItemInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/InstanceWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Equipment.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Consumable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/ItemObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/CoinPickUp.cs" />
@@ -128,16 +123,25 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlwaysLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerClimbWall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/ItemFade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransparencyFade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExperienceBarBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIWander.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AddStick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Materials/3DTextShader.cs" />
+        <option value="$PROJECT_DIR$/Assets/3DText.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/BuyItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Consumable.cs" />
+        <option value="$PROJECT_DIR$/Assets/AppQuit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Equipment.cs" />
+        <option value="$PROJECT_DIR$/Assets/pauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
       </list>
     </option>
   </component>
@@ -234,6 +238,7 @@
       <workItem from="1607539782474" duration="16677000" />
       <workItem from="1607646127315" duration="1013000" />
       <workItem from="1607709608042" duration="19346000" />
+      <workItem from="1607793365066" duration="13537000" />
     </task>
     <servers />
   </component>

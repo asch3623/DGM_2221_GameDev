@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cf5365233e716419ba00d727c91239, type: 3}
+  m_Name: ListenToTheVoice
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: I don't trust you, Vivian. You could've told me what's going on to
+      begin with.
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: That's right. Instead she had you wasting your time killing Lurkers.
+  - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
+    dialogue: . . . .
+  - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
+    dialogue: You're stalling for something! But what?
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: She used to be a scientist, []! She probably wants to do experiments
+      on you to see why you can fight Lurkers!
+  - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
+    dialogue: Quick! I know where we can be safe, follow me!

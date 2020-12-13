@@ -19,6 +19,16 @@ public class FloatData : ScriptableObject
         updateValueEvent.Invoke();
     }
 
+    public void SetValue(float num)
+    {
+        value = num;
+    }
+
+    public void SetMaxValue(float num)
+    {
+        maxValue = num;
+    }
+
     public void MaxValueAbleToUpgrade()
     {
         isComplete = false;

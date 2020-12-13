@@ -6,10 +6,6 @@ public class Consumable : ItemObj
 {
     public UnityEvent updateHealth;
     
-    private void Awake()
-    {
-        type = ItemType.Consumable;
-    }
     public override void Use()
     {
         updateHealth.Invoke();

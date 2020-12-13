@@ -10,4 +10,9 @@ public class IntData : ScriptableObject
     {
         value += num;
     }
+
+    public void SetValue(int num)
+    {
+        value = num;
+    }
 }

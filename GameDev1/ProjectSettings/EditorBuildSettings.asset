@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/safezone.unity
     guid: 79a179ee0b796494ebc37d9fe4e70591
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/bossbattle.unity
     guid: ee8821181a581134fa425631b79a3857
   - enabled: 1

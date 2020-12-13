@@ -5,10 +5,6 @@ using UnityEngine.Events;
 [CreateAssetMenu (fileName = "new Consumable", menuName = "Items/Equipment")]
 public class Equipment : ItemObj
 {
-    private void Awake()
-    {
-        type = ItemType.Equipment;
-    }
 
     public UnityEvent useEvent;
     public int defense;
@@ -17,5 +13,20 @@ public class Equipment : ItemObj
     {
         useEvent.Invoke();
 
+    }
+
+    public void UpgradeAttack(int amount)
+    {
+        attackDamage *= amount;
+    }
+
+    public void ChangeDescription(string message)
+    {
+        description = message;
+    }
+
+    public void SetAttackValue(int amount)
+    {
+        attackDamage = amount;
     }
 }

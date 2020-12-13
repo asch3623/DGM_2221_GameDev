@@ -52,11 +52,21 @@ public class EnemyBehaviour : MonoBehaviour
         if (fade.complete)
         {
             RandomItemDrop();
-                      isDead = true;
-                      spawn.BringBack();
-                      gameObject.SetActive(false);  
+            isDead = true;
+            spawn.BringBack();
+            gameObject.SetActive(false);  
         }
         
+    }
+
+    public void SetInactiveWithOutRespawn()
+    {
+        if (fade.complete)
+        {
+            RandomItemDrop();
+            isDead = true;
+            gameObject.SetActive(false);  
+        }
     }
     
 
