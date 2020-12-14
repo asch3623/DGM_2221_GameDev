@@ -20,7 +20,7 @@ public class FadeText : MonoBehaviour
         alpha = textColor.a;
         i = 0;
 
-        speed = 10f;
+        speed = 8f;
         isComplete = false;
         isDoneMoving = false;
         textY = gameObject.transform.position.y;
@@ -30,7 +30,7 @@ public class FadeText : MonoBehaviour
     private void Update()
     {
         gameObject.transform.position += Vector3.up * Time.deltaTime * speed;
-        if (gameObject.transform.position.y > 70)
+        if (gameObject.transform.position.y > 80)
         {
             isDoneMoving = true;
         }

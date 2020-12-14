@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 public class CharControlMovement : MonoBehaviour
 {
-    public float rotateSpeed = 3f;
+    public float rotateSpeed = 7f;
     public float jumpSpeed = 8f;
     public float gravity = 20f;
 
@@ -26,12 +26,16 @@ public class CharControlMovement : MonoBehaviour
     public Image ClimbUi;
     private float timeLeft;
 
+    private Transform _char;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
         canMove = true;
         timeLeft = climbSkill.value;
-        
+        _char = gameObject.transform.Find("Player").transform;
+
+
     }
 // old
     private void Update()
@@ -40,7 +44,7 @@ public class CharControlMovement : MonoBehaviour
         {
             if (controller.isGrounded)
             {
-                moveDirection = new Vector3(0, 0, Input.GetAxis("Vertical"));
+                moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
                 moveDirection = transform.TransformDirection(moveDirection);
                 moveDirection *= speed;
                 if (Input.GetButtonDown("Jump"))
@@ -50,15 +54,25 @@ public class CharControlMovement : MonoBehaviour
             }
             else
             {
-                       moveDirection = new Vector3(0, moveDirection.y, Input.GetAxis("Vertical"));
+                       moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), moveDirection.y, Input.GetAxisRaw("Vertical"));
                        moveDirection = transform.TransformDirection(moveDirection);
                        moveDirection.x *= speed;
                        moveDirection.z *= speed;
             }
                
-            transform.Rotate(0, Input.GetAxis("Horizontal")*rotateSpeed,0);
+            
+            if (moveDirection.magnitude <= 0.01f)
+            {
+                moveDirection.y -= gravity * Time.deltaTime;
+                return;
+            }
+            Quaternion LookAtRotation = Quaternion.LookRotation( moveDirection );
+            Quaternion LookAtRotationOnly_Y = Quaternion.Euler(_char.transform.rotation.eulerAngles.x, LookAtRotation.eulerAngles.y, _char.transform.rotation.eulerAngles.z);
+               
+            //_char.transform.rotation = LookAtRotationOnly_Y;
+            _char.rotation = Quaternion.Lerp(_char.rotation, LookAtRotationOnly_Y, Time.deltaTime * rotateSpeed);
             moveDirection.y -= gravity * Time.deltaTime;
-            controller.Move(moveDirection * Time.deltaTime); 
+            controller.Move(moveDirection * Time.deltaTime);
         }
        
         if (canClimb)

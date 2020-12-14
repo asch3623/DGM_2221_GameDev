@@ -65,20 +65,29 @@ public class InventorySlotController : MonoBehaviour
     { 
         if (thisItemIsClicked)
         {
-            item.amount--;
-                                        
-            if (item.amount == 0)
+            if (item.name != "Stick")
             {
-                InventorySystem.instance.Remove(item);
+                 item.amount--;
+                                                        
+                            if (item.amount == 0)
+                            {
+                                InventorySystem.instance.Remove(item);
+                            }
+                            updateInfo();
+                            pickUpBox.SetActive(false);
+                            thisItemIsClicked = false;
             }
-            updateInfo();
-            pickUpBox.SetActive(false);
-            thisItemIsClicked = false;
+            else
+            {
+                instanceT.text = "<color=#00ff00ff>Stick</color>  is an important weapon, you cannot drop it!";
+                Instantiate(textUi, UIReference.instance.transform);
+            }
+           
         }
         
     }
-    
-    
+
+
     public void updateInfo()
     {
         Text displayText = transform.Find("Text").GetComponent<Text>();

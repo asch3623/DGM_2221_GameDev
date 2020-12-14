@@ -102,7 +102,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/Tester.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/UIReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/TextFade.cs" />
-        <option value="$PROJECT_DIR$/Assets/FadeText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/ItemPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/ItemInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/InstanceWeapon.cs" />
@@ -113,7 +112,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OtherInteractions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/onMouseOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ReplaceLootItems.cs" />
@@ -142,6 +140,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Equipment.cs" />
         <option value="$PROJECT_DIR$/Assets/pauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/FadeText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
       </list>
     </option>
   </component>
@@ -238,7 +238,8 @@
       <workItem from="1607539782474" duration="16677000" />
       <workItem from="1607646127315" duration="1013000" />
       <workItem from="1607709608042" duration="19346000" />
-      <workItem from="1607793365066" duration="13537000" />
+      <workItem from="1607793365066" duration="14466000" />
+      <workItem from="1607840996822" duration="6367000" />
     </task>
     <servers />
   </component>
