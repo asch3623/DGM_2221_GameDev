@@ -16,8 +16,8 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
     dialogue: 'You. . . you really did it. That  must mean that you''re. . . '
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
-    dialogue: But you don't remember everything. . . It has to be in your head! You're
-      hearing a voice, aren't you? Please, you have to trust me.
+    dialogue: Do you not remember? It has to be in your head! Are you hearing a voice?
+      Please, you have to trust me.
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
-    dialogue: Hey, [], this lady's not making any sense. She must be crazy for living
+    dialogue: Hey, [], this lady's not making any sense. She must be crazy from living
       out here so long. Let's go, this might be a trap.

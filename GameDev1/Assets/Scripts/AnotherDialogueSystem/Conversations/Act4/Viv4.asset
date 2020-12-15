@@ -15,13 +15,13 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
     dialogue: But there's one final problem. The original Lurker, the one who caused
-      all of these problems, is still with you.
+      all of this, is still with you.
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}
     dialogue: She's LYING! You can't PROVE IT! I watched you KILL all of those Lurkers
       and did NOTHING, I'm on your side!
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
     dialogue: It wants access to the science lab. We left some dark energy there
-      that could increase its power. I bet it thought you could help it.
+      that could increase its power. I bet it thought you could take it there.
   - speaker: {fileID: 11400000, guid: 4f14e5640dd40594b949ad997bcc2fc1, type: 2}
     dialogue: You were just using me???
   - speaker: {fileID: 11400000, guid: e394415826181e4408ede393c932ddf6, type: 2}

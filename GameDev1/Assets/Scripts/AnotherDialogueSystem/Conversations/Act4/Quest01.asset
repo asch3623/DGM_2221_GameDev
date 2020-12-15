@@ -28,10 +28,10 @@ MonoBehaviour:
       dying!
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
     dialogue: If all of us could just take a stick and go wild, the Lurkers wouldn't
-      even be here by now! But no, we've resorted to avoiding them.
+      even be here by now! But no, we have to avoid them.
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
-    dialogue: There's something up about you. You wander in here the same time that
-      they. . . hmm . . . you know what?
+    dialogue: There's something up about you. You've wandered in here the same time
+      that they. . . hmm . . . you know what?
   - speaker: {fileID: 11400000, guid: 24600badf59bab34c9a96c9827a9c650, type: 2}
     dialogue: I know who you are. If you clear out the Lurkers by the shopping mall,
       I'll tell you more.

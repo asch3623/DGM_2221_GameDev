@@ -48,10 +48,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/InstanceWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect/OutlineEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MissionInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherDialogueSystem/DialogueSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TeleportObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect/Outline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect/OutlineOccludedBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/ReplaceLootItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/AI/PatrolandFollow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/UIReference.cs" root0="FORCE_HIGHLIGHTING" />
@@ -91,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
@@ -142,6 +143,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/FadeText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OutlineCameraToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect/OutlineOccludedBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -240,6 +243,7 @@
       <workItem from="1607709608042" duration="19346000" />
       <workItem from="1607793365066" duration="14466000" />
       <workItem from="1607840996822" duration="6367000" />
+      <workItem from="1607987617683" duration="4671000" />
     </task>
     <servers />
   </component>
