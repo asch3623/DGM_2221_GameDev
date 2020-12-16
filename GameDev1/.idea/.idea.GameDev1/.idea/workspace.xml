@@ -25,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/TransformBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/SpriteMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BadgeSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/Move/CubeMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../1610Spring2020_Annika/Project1/Assets/Scripts/SummonText.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670_Fall2020_Annika/firstproj/Assets/Scripts/CharacterMover.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAttachedObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BadgeObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/Equipment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/InstanceWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageColorBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,6 +74,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmmoText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/nameInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BadgeMouseOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIWander.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AddStick.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,9 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventoryAnimationController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlpacaBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/AllItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponBehavior.cs" />
@@ -116,7 +116,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/onMouseOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CountChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ReplaceLootItems.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
@@ -145,6 +144,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryVersion2/InventorySlotController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OutlineCameraToggle.cs" />
         <option value="$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect/OutlineOccludedBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BadgeObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BadgeMouseOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BadgeSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FeedAlpaca.cs" />
       </list>
     </option>
   </component>
@@ -244,6 +247,7 @@
       <workItem from="1607793365066" duration="14466000" />
       <workItem from="1607840996822" duration="6367000" />
       <workItem from="1607987617683" duration="4671000" />
+      <workItem from="1608056919873" duration="5174000" />
     </task>
     <servers />
   </component>

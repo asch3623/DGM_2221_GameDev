@@ -9,8 +9,9 @@ public class FeedAlpaca : MonoBehaviour
     public IntData alpacaLove;
     public BoolData isEquipped;
     private bool isAwarded;
-    public UnityEvent gaveItem;
-   
+    public UnityEvent gaveItem, giveBadge;
+    public BadgeObj badge;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Alpaca")
@@ -28,6 +29,7 @@ public class FeedAlpaca : MonoBehaviour
         if (other.gameObject.tag == "Greg")
         {
             gaveItem.Invoke();
+            giveBadge.Invoke();
             isEquipped.value = false;
             Destroy(gameObject);
         }
@@ -43,6 +45,8 @@ public class FeedAlpaca : MonoBehaviour
         else if (alpacaLove.value == 5 && isAwarded == false)
         {
             t.text = "<color=#FF0000> You won the award: BEST ALPACA HERDER! </color>";
+            badge.isObtained = true;
+            giveBadge.Invoke();
             isAwarded = true;
         }
       

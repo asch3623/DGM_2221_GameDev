@@ -146,6 +146,25 @@ MonoBehaviour:
   textUi: {fileID: 3630595786955109827, guid: 5d276da3afa214147a0bfb7c4f2685e5, type: 3}
   alpacaLove: {fileID: 11400000, guid: a39571a81f984e1439ed868dccb019fc, type: 2}
   isEquipped: {fileID: 11400000, guid: d0697b574f9b1434a84c9b7b77ad6097, type: 2}
+  gaveItem:
+    m_PersistentCalls:
+      m_Calls: []
+  giveBadge:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2431ba31b7eee2e4884550d61f43d225, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  badge: {fileID: 11400000, guid: c525045ab559e8b4c97cfb7100139b07, type: 2}
 --- !u!54 &6794826635898074668
 Rigidbody:
   m_ObjectHideFlags: 0

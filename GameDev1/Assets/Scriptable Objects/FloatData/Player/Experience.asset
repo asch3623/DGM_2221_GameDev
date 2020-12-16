@@ -20,3 +20,6 @@ MonoBehaviour:
   updateValueEvent:
     m_PersistentCalls:
       m_Calls: []
+  equalValueEvent:
+    m_PersistentCalls:
+      m_Calls: []
